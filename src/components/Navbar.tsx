@@ -43,7 +43,7 @@ export default function Navbar() {
           </a>
           <a href="mailto:zenworkshopid@gmail.com" className="flex items-center space-x-2 hover:text-gray-300 transition">
             <MdOutlineMail />
-            <span>zenworkshopid@gmail.com</span>
+            <span>nemuworkshopid@gmail.com</span>
           </a>
         </div>
         <div className="flex space-x-4">

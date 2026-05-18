@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import proyek1 from "../assets/atapkaca.jpg";
-import proyek2 from "../assets/floorhinge.jpg";
+import proyek1 from "../assets/kanopi5.jpeg";
+import proyek2 from "../assets/kanopi8.jpeg";
 import proyek3 from "../assets/jendelaa.jpg";
 import proyek4 from "../assets/partisi.jpg";
 import proyek5 from "../assets/pivot.jpg";

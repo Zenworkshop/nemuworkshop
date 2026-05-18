@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { CheckCircle, Users, LayoutGrid, Warehouse } from "lucide-react";
-import keroposimg from "../assets/whyus.jpg";
+import keroposimg from "../assets/pagarduma8.jpeg";
 
 const problems = [
   "Tim Profesional",

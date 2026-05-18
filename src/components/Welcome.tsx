@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import jendelaIcon from '../assets/jendela.png';
 import kacaIcon from '../assets/kaca.png';
 import pintuIcon from '../assets/pintu.png';
-import pengalamanImg from "../assets/welcome.png";
+import pengalamanImg from "../assets/pagarduma2.jpeg";
 
 export default function Welcome() {
   const fadeIn = {
@@ -45,10 +45,10 @@ export default function Welcome() {
         <div className="w-full md:basis-8/12 md:pl-12 text-center md:text-left">
           <div>
             <div className="text-orange-400 mb-1 mt-[-28px] md:mt-0">SELAMAT DATANG DI</div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Zen Workshop</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Nemu Workshop</h2>
             <p className="text-gray-600 mb-8">
-              Zen Workshop adalah mitra terpercaya dalam penyediaan jasa aluminium berkualitas untuk berbagai kebutuhan — mulai dari rumah tinggal, unit apartemen, gedung perkantoran, hingga proyek komersial berskala besar. Dengan pengalaman bertahun-tahun di industri aluminium dan kaca, 
-              <strong> kami menghadirkan layanan profesional, desain aluminium yang inovatif, serta komitmen tinggi terhadap kepuasan pelanggan.</strong>
+              NEMU Workshop adalah mitra terpercaya dalam penyediaan jasa bengkel las, konstruksi besi, stainless, dan baja ringan berkualitas untuk berbagai kebutuhan — mulai dari rumah tinggal, ruko, gedung perkantoran, hingga proyek komersial berskala besar. Dengan pengalaman di bidang fabrikasi dan konstruksi, 
+              <strong> kami menghadirkan layanan profesional, pengerjaan rapi, desain modern, serta komitmen tinggi terhadap kepuasan pelanggan.</strong>
             </p>
 
             <p className="text-xl font-bold text-gray-700 mt-4 mb-6">
@@ -64,20 +64,20 @@ export default function Welcome() {
             >
               {[{
                 icon: jendelaIcon,
-                title: "Jendela Aluminium",
-                desc: "Jendela sliding, Jendela Lipat, Jendela pivot, jungkit, dan swing."
+                title: "Pagar dan Kanopi",
+                desc: "Pembuatan pagar minimalis, pagar tralis, pintu pagar, kanopi besi, kanopi baja ringan, dan berbagai kebutuhan eksterior rumah lainnya."
               }, {
                 icon: kacaIcon,
-                title: "Kaca Aluminium",
-                desc: "Kaca Clear, temperred, Shower box kaca, dan partisi kaca untuk sekat ruangan."
+                title: "Pintu & Folding Gate",
+                desc: "Pembuatan pintu besi, pintu garasi, folding gate, pintu custom, dan berbagai model pintu sesuai kebutuhan bangunan."
               }, {
                 icon: pintuIcon,
-                title: "Pintu Aluminium",
-                desc: "Pintu kaca dan ACP, Pintu lipat, Pintu sliding, dan Swing."
+                title: "Railing & Tangga",
+                desc: "Pembuatan railing balkon, railing tangga, tangga layang, tangga putar, stainless railing, dan konstruksi tangga modern."
               }, {
                 icon: kacaIcon,
                 title: "Produk Lainnya",
-                desc: "Atap kaca Skylight, Pintu Floorhinge, Kitchen set Aluminium."
+                desc: "Mejanin, alperon, tempa klasik, stainless custom, baja ringan, dan berbagai kebutuhan workshop & konstruksi lainnya."
               }].map((item, idx) => (
                 <motion.div key={idx} className="flex flex-row items-start gap-4" variants={serviceItem}>
                   <div className="border p-2 rounded shrink-0">

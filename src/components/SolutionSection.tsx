@@ -2,15 +2,15 @@
 
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
-import solutiomimg from "../assets/partisi.jpg";
-import solutiomimg2 from "../assets/floorhinge.jpg";
-import solutiomimg3 from "../assets/sliding.jpg";
+import solutiomimg from "../assets/pagarduma3.jpeg";
+import solutiomimg2 from "../assets/pagarkisikisi.jpeg";
+import solutiomimg3 from "../assets/railingtangga4.jpeg";
 
 const benefits = [
-  "Tahan Terhadap Rayap & Korosi",
-  "Desain Minimalis & Tampilan Lebih Modern",
-  "Biaya Lebih Efisien & Hemat Perawatan",
-  "Material Tidak Mudah Terbakar & Aman untuk Hunian",
+  "Kuat & Tahan Lama",
+  "Desain Lebih Modern & Fleksibel",
+  "Cocok Untuk Indoor & Outdoor",
+  "Lebih Aman & Kokoh",
 ];
 
 export default function SolutionSection() {
@@ -29,10 +29,10 @@ export default function SolutionSection() {
             SOLUSI
           </h3>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 leading-snug">
-            Kenapa Harus Memilih Kusen Aluminium?
+            Kenapa Harus Memilih Besi?
           </h2>
           <p className="text-lg md:text-xl text-white mt-6 leading-relaxed">
-            Aluminium adalah solusi modern untuk rumah dan bangunan Anda. Berikut beberapa keunggulan kusen aluminium dibandingkan material kayu atau besi:
+            Besi menjadi salah satu material terbaik untuk berbagai kebutuhan konstruksi dan eksterior karena terkenal kuat, fleksibel, dan memiliki tampilan modern yang elegan.
           </p>
 
           <ul className="mt-8 space-y-6">

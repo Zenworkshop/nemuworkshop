@@ -1,48 +1,50 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 
+
 const features = [
   { 
     title: "Rapi & Presisi", 
-    desc: "Kami memastikan setiap pemasangan aluminium dikerjakan dengan detail dan presisi tinggi, menghasilkan hasil akhir yang sempurna dan rapi untuk proyek Anda." 
+    desc: "Setiap pengerjaan pagar, kanopi, railing, dan konstruksi besi dikerjakan dengan detail serta presisi tinggi untuk hasil yang lebih kokoh dan estetik." 
   },
   { 
     title: "Respon Cepat", 
-    desc: "Layanan pemasangan aluminium dengan respon cepat, memastikan kebutuhan proyek Anda ditangani tanpa penundaan." 
+    desc: "Tim NEMU Workshop siap merespon kebutuhan dan konsultasi proyek Anda dengan cepat tanpa proses yang berbelit." 
   },
   { 
     title: "Proyek Bergaransi", 
-    desc: "Kami memberikan garansi resmi 6 bulan untuk pemasangan aluminium, termasuk aksesori dan silen, demi memastikan kualitas layanan terbaik." 
+    desc: "Kami memberikan garansi pengerjaan untuk memastikan hasil proyek tetap aman, kuat, dan sesuai standar kualitas." 
   },
   { 
-    title: "Berkualitas Tinggi", 
-    desc: "Menggunakan material aluminium terbaik dan tahan lama, kami menjamin proyek Anda mendapatkan hasil berkualitas tinggi dengan standar premium." 
+    title: "Material Berkualitas", 
+    desc: "Menggunakan material pilihan seperti besi, stainless, hollow galvanis, dan baja ringan berkualitas tinggi untuk hasil yang tahan lama." 
   },
   { 
     title: "Jaminan Kebersihan", 
-    desc: "Setelah proses pemasangan aluminium selesai, tim kami akan memastikan lokasi proyek tetap bersih dan nyaman tanpa biaya tambahan." 
+    desc: "Setelah proses pengerjaan selesai, area kerja akan dibersihkan kembali agar tetap nyaman dan rapi." 
   },
   { 
-    title: "Proyek skala besar", 
-    desc: "Kami telah menangani berbagai proyek aluminium untuk rumah tinggal, perkantoran, hingga bangunan komersial berskala besar." 
+    title: "Melayani Proyek Besar", 
+    desc: "Kami berpengalaman menangani proyek rumah tinggal, ruko, kantor, hingga proyek komersial skala besar." 
   },
   { 
-    title: "Akad Jelas", 
-    desc: "Setiap proyek pemasangan aluminium dilakukan berdasarkan kesepakatan transparan dan tertulis untuk kenyamanan kedua belah pihak." 
+    title: "Akad & Harga Transparan", 
+    desc: "Semua proses pengerjaan dilakukan dengan kesepakatan yang jelas dan transparan agar pelanggan merasa aman dan nyaman." 
   },
   { 
     title: "Pelayanan Ramah", 
-    desc: "Tim kami selalu memberikan pelayanan ramah dan komunikatif dalam setiap proses konsultasi, survei, hingga pemasangan aluminium." 
+    desc: "Kami selalu mengutamakan pelayanan yang ramah, komunikatif, dan profesional dari awal konsultasi hingga proyek selesai." 
   },
   { 
     title: "Gratis Konsultasi", 
-    desc: "Kami menyediakan layanan konsultasi gratis untuk membantu Anda menentukan kebutuhan aluminium terbaik sebelum memulai proyek." 
+    desc: "Bingung menentukan model atau material? Tim kami siap membantu konsultasi gratis sesuai kebutuhan bangunan Anda." 
   },
   { 
-    title: "Gratis Biaya Survei", 
-    desc: "Kami memberikan layanan survei lokasi gratis untuk memastikan perencanaan pemasangan aluminium Anda lebih akurat dan efisien." 
+    title: "Gratis Survey Lokasi", 
+    desc: "Kami menyediakan layanan survey lokasi gratis untuk membantu perencanaan proyek menjadi lebih akurat dan efisien." 
   },
 ];
+
 
 
 const titleVariants = {

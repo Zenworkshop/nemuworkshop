@@ -3,20 +3,20 @@
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
-import floorhinge from "../assets/floorhinge.jpg";
-import partisikacaa from "../assets/partisi.jpg";
-import pintuslidinggg from "../assets/sliding.jpg";
-import jendela from "../assets/jendelaa.jpg";
-import pivot from "../assets/pintulipet.png";
-import atapkaca from "../assets/atapkaca.jpg";
+import floorhinge from "../assets/mezanin2.jpeg";
+import partisikacaa from "../assets/railingtangga4.jpeg";
+import pintuslidinggg from "../assets/kanopi7.jpeg";
+import jendela from "../assets/pagar.jpeg";
+import pivot from "../assets/tangga5.jpeg";
+import atapkaca from "../assets/kanopi11.jpeg";
 
 const projects = [
-  { title: "Jendela Aluminium", image: jendela },
-  { title: "Pintu Sliding", image: pintuslidinggg },
-  { title: "Pintu dan Partisi kaca", image: partisikacaa },
-  { title: "Pintu Lipat", image: pivot },
-  { title: "Pintu Floorhinge", image: floorhinge },
-  { title: "Kanopi Kaca", image: atapkaca },
+  { title: "Pagar Besi", image: jendela },
+  { title: "Kanopi", image: pintuslidinggg },
+  { title: "Railing Tangga", image: partisikacaa },
+  { title: "Tangga Besi", image: pivot },
+  { title: "Mezzanine", image: floorhinge },
+  { title: "Baja Ringan", image: atapkaca },
 ];
 
 export default function Catalog() {

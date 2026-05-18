@@ -8,30 +8,32 @@ const steps = [
   { 
     id: "01", 
     title: "Hubungi Kami", 
-    desc: "Langkah pertama untuk memulai proyek aluminium Anda adalah menghubungi kami. Tim kami siap memberikan konsultasi desain dan kebutuhan secara cepat dan ramah." 
+    desc: "Langkah pertama untuk memulai proyek Anda adalah menghubungi tim NEMU Workshop. Kami siap membantu konsultasi desain, model, dan kebutuhan konstruksi secara cepat dan ramah." 
   },
   { 
     id: "02", 
     title: "Survey Lokasi", 
-    desc: "Kami melakukan survei lokasi untuk memastikan data ukuran dan kondisi lapangan akurat, sehingga pemasangan aluminium berjalan presisi dan sesuai rencana." 
+    desc: "Tim kami akan melakukan survey lokasi untuk memastikan ukuran, kondisi lapangan, dan kebutuhan proyek agar pengerjaan lebih presisi dan sesuai rencana." 
   },
   { 
     id: "03", 
     title: "Kalkulasi Biaya", 
-    desc: "Setelah survei, kami membuat kalkulasi harga aluminium dan jasa pemasangan secara rinci, membantu Anda mengambil keputusan dengan transparansi penuh.", 
+    desc: "Setelah survey selesai, kami akan membuat perhitungan biaya material dan jasa secara transparan agar Anda lebih nyaman dalam menentukan pilihan proyek.", 
     highlight: true 
   },
   { 
     id: "04", 
-    title: "MoU (Memorandum of Understanding)", 
-    desc: "Kami membuat surat perjanjian kerja (MoU) yang memuat seluruh detail spesifikasi, harga, dan timeline proyek aluminium untuk keamanan dan kenyamanan Anda." 
+    title: "Kesepakatan Kerja", 
+    desc: "Kami membuat kesepakatan kerja yang jelas meliputi desain, material, harga, dan estimasi pengerjaan demi kenyamanan kedua belah pihak." 
   },
   { 
     id: "05", 
-    title: "Proses Produksi", 
-    desc: "Tim produksi kami mulai membuat dan memasang produk aluminium sesuai desain yang disepakati, dengan fokus pada ketepatan waktu dan kualitas terbaik." 
+    title: "Proses Produksi & Pemasangan", 
+    desc: "Tim NEMU Workshop mulai proses produksi hingga pemasangan dengan fokus pada kualitas pengerjaan, ketepatan waktu, dan hasil yang rapi." 
   },
 ];
+
+
 
 const containerVariant = {
   hidden: { opacity: 0 },

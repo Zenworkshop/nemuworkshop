@@ -48,7 +48,7 @@ export default function Footer() {
                 className="flex items-center text-gray-400 hover:text-white transition"
               >
                 <Mail className="w-5 h-5 mr-2" />
-                zenworkshopid@gmail.com
+                nemuworkshopid@gmail.com
               </a>
             </li>
 
@@ -72,7 +72,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.tiktok.com/@zenworkshop"
+                href="https://www.tiktok.com/@nemuworkshop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition"
@@ -80,7 +80,7 @@ export default function Footer() {
                 <FaTiktok className="w-6 h-6" />
               </a>
               <a
-                href="https://instagram.com/zenworkshopid"
+                href="https://instagram.com/nemuworkshop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition"
@@ -88,7 +88,7 @@ export default function Footer() {
                 <FaInstagram className="w-6 h-6" />
               </a>
               <a
-                href="https://www.youtube.com/@zenworkshop"
+                href="https://www.youtube.com/@nemuworkshop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition"
@@ -108,7 +108,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Zen Workshop. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Nemu Workshop. All rights reserved.</p>
         </div>
       </div>
     </footer>

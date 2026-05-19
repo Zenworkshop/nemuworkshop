@@ -39,9 +39,9 @@ export default function Navbar() {
           </div>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-gray-300 transition">
             <FiPhone />
-            <span>0895391788114</span>
+            <span>0812-4499-7748</span>
           </a>
-          <a href="mailto:zenworkshopid@gmail.com" className="flex items-center space-x-2 hover:text-gray-300 transition">
+          <a href="mailto:nemuworkshopid@gmail.com" className="flex items-center space-x-2 hover:text-gray-300 transition">
             <MdOutlineMail />
             <span>nemuworkshopid@gmail.com</span>
           </a>

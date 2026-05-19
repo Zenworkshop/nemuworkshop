@@ -165,10 +165,12 @@ export default function Testimonials() {
         <motion.h2 className="text-3xl font-bold">
           Ingin bekerjasama dengan kami?
         </motion.h2>
-        <p className="mt-3 text-lg md:text-xl font-semibold text-white leading-relaxed">
-          Hubungi tim kami untuk konsultasi gratis seputar produk aluminium terbaik.
-          Kami siap membantu mewujudkan kebutuhan proyek Anda dengan layanan profesional dan terpercaya.
-        </p>
+          <p className="mt-3 text-lg md:text-xl font-semibold text-white leading-relaxed">
+            Hubungi tim NEMU Workshop untuk konsultasi gratis seputar kebutuhan pagar, kanopi, railing, tangga, dan konstruksi besi lainnya.
+            Kami siap membantu mewujudkan proyek Anda dengan pengerjaan rapi, material berkualitas, dan layanan profesional terpercaya.
+          </p>
+
+
 
         <div className="mt-6 flex justify-center">
           <motion.a

@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Zen Workshop</h3>
+            <h3 className="text-xl font-bold mb-4">Nemu Workshop</h3>
             <p className="text-gray-400">
-              Kontraktor Spesialis Aluminium dan Kaca di Jabodetabek – Jasa Pembuatan Pintu, Jendela, dan Kusen Aluminium Berkualitas & Terlengkap
+              Kontraktor Spesialis Besi, Kanopi, dan Konstruksi Custom di Jabodetabek – Jasa Pembuatan Pagar, Railing, Tangga, Folding Gate, dan Kanopi Berkualitas & Terpercaya
             </p>
           </div>
 

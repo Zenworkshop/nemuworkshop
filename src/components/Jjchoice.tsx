@@ -4,48 +4,46 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // Gambar contoh
-import sliding1 from "../assets/jsdecky.jpg";
-import sliding2 from "../assets/js6.jpg";
-import sliding3 from "../assets/js7.jpg";
-import swing1 from "../assets/jsw1.jpg";
-import swing2 from "../assets/jsw2.jpg";
-import swing3 from "../assets/jendelaa.jpg";
-import jungkit1 from "../assets/jjungkit3.jpg";
-import jungkit2 from "../assets/jjungkit2.jpg";
-import jungkit3 from "../assets/jjungkit.jpg";
-import jkmati from "../assets/jkmfahri.jpg";
-import jkmati2 from "../assets/ribbenhariono.jpg";
-import jkmati3 from "../assets/jkmati3.jpg";
-import jcustom from "../assets/komjsliding.jpg";
-import jcustom2 from "../assets/jendelaa.jpg";
-import jcustom3 from "../assets/pivotfahri.jpg";
+import sliding1 from "../assets/pagarbesi.jpg";
+import sliding2 from "../assets/pagarhollow1.png";
+import sliding3 from "../assets/pagarhollow2.jpg";
+import swing1 from "../assets/pagartempa.jpg";
+import swing2 from "../assets/pagartempa2.webp";
+import swing3 from "../assets/pagartempa3.jpg";
+import jungkit1 from "../assets/pagarnako.jpg";
+import jungkit2 from "../assets/pagarnako2.webp";
+import jungkit3 from "../assets/pagarnako3.jpg";
+import jkmati from "../assets/pagarlaser.webp";
+import jkmati2 from "../assets/pagarlaser2.webp";
+import jkmati3 from "../assets/pagarlaser3.webp";
+import jcustom from "../assets/pagar.jpeg";
+import jcustom2 from "../assets/pagar1.jpeg";
+import jcustom3 from "../assets/pagarbesi.jpg";
 
 const jenisJendela = [
   {
-    title: "Jendela Sliding Aluminium",
-    content: `Jendela sliding aluminium adalah solusi sempurna untuk rumah minimalis modern. 
-Dengan sistem buka geser, jendela ini tidak memakan tempat dan sangat praktis untuk ruang tamu, kamar tidur, hingga balkon.<br /><br />
-Desainnya memberikan tampilan elegan dan memaksimalkan cahaya alami masuk ke ruangan. Cocok untuk Anda yang menginginkan ruangan lebih terang dan lega.`,
+    title: "Pagar Minimalis Besi Hollow",
+    content: "Pagar besi hollow minimalis menjadi pilihan favorit untuk rumah modern karena tampilannya yang simpel, elegan, dan tetap kokoh. Dengan desain garis-garis tegas, pagar ini cocok dipadukan dengan fasad rumah minimalis maupun industrial.<br /><br /> Material hollow berkualitas membuat pagar lebih tahan lama, anti karat, dan mudah dalam perawatan sehari-hari.",
     images: [sliding1, sliding2, sliding3]
   },
   {
-    title: "Jendela Swing Aluminium",
-    content: "Jendela swing aluminium sangaJendela swing aluminium sangat ideal untuk menghadirkan ventilasi maksimal. Bukaan penuh ke arah luar atau dalam memudahkan sirkulasi udara segar.<br /><br />Jendela ini umumnya dipilih untuk dapur dan kamar mandi yang membutuhkan pertukaran udara lebih sering. Material aluminium membuatnya tahan lama dan bebas perawatan.t ideal untuk menghadirkan ventilasi maksimal.",
+    title: "Pagar Besi Tempa",
+    content: "Pagar besi tempa menghadirkan tampilan klasik, elegan, dan mewah untuk hunian Anda. Detail lekukan dan ornamen khas besi tempa membuat tampilan rumah terlihat lebih eksklusif dan berkelas.<br /><br /> Selain kuat dan kokoh, pagar jenis ini juga cocok dipadukan dengan berbagai konsep rumah, mulai dari klasik modern hingga industrial mewah.",
     images: [swing1, swing2, swing3]
   },
   {
-    title: "Jendela Jungkit Aluminium",
-    content: "Jendela jungkit aluminium adalah pilihan fleksibel bagi Anda yang menginginkan ventilasi namun tetap menjaga keamanan.<br /><br /> Bukaan sedikit ke atas membuat udara tetap mengalir tanpa takut hujan masuk. Umumnya dipasang di area-area semi-privat seperti kamar mandi atau ruang cuci.",
+    title: "Pagar Besi Nako",
+    content: "Pagar besi nako menjadi pilihan tepat untuk Anda yang menginginkan tampilan rumah lebih modern, simpel, dan tetap kokoh. Model garis-garis besi nako memberikan kesan minimalis yang rapi sekaligus mempercantik fasad rumah.<br /><br /> Selain kuat dan tahan lama, pagar jenis ini juga cocok digunakan untuk rumah minimalis modern, area komersial, hingga bangunan industrial.",
     images: [jungkit1, jungkit2, jungkit3]
   },
   {
-    title: "Jendela Mati (fixed)",
-    content: "Jendela fixed aluminium merupakan jendela tanpa bukaan yang difungsikan untuk menghadirkan pencahayaan alami maksimal.<br /><br /> Cocok untuk area tangga, foyer, atau ruang tamu yang ingin menonjolkan desain interior dengan pencahayaan natural sepanjang hari. Anti karat dan mudah perawatan.",
+    title: "Pagar Laser Cutting",
+    content: "Pagar laser cutting menjadi pilihan populer untuk rumah modern karena tampilannya yang unik, estetik, dan premium. Motif custom pada plat besi membuat fasad rumah terlihat lebih elegan sekaligus memiliki karakter tersendiri.<br /><br /> Selain memberikan keamanan, pagar laser cutting juga mampu meningkatkan nilai visual rumah dengan desain yang modern dan eksklusif.",
     images: [jkmati, jkmati2, jkmati3]
   },
   {
-    title: "Jendela Aluminium Custom Design",
-    content: "Ingin tampilan jendela aluminium sesuai kebutuhan dan gaya hunian Anda? Kami melayani pembuatan jendela custom design.<br /><br /> Mulai dari ukuran, tipe bukaan, hingga pilihan kaca dan warna, semua bisa disesuaikan. Sangat tepat untuk proyek rumah impian atau desain arsitektural unik. Konsultasikan gratis bersama tim ahli kami!",
+    title: "Pagar Custom Design",
+    content: "Ingin desain pagar yang menyesuaikan konsep rumah Anda? NEMU Workshop melayani pembuatan pagar custom sesuai kebutuhan.<br /><br /> Mulai dari model minimalis, industrial, klasik, hingga kombinasi material bisa disesuaikan dengan desain impian Anda. Konsultasikan gratis bersama tim kami!",
     images: [jcustom, jcustom2, jcustom3]
   },
 ];

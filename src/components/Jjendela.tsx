@@ -7,12 +7,12 @@ export default function Jjendela() {
       {/* Hero Section */}
       <div className="pt-24 md:pt-32 pb-16 px-4 md:px-8 text-center max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Jasa Pembuatan & Pemasangan Jendela Aluminium
+          Jasa Pembuatan & Pemasangan Pagar Besi Rumah dan Bangunan Komersial di Jabodetabek.
         </h2>
         <p className="text-lg md:text-xl mb-10">
-          Zen Workshop adalah spesialis jasa pembuatan dan pemasangan jendela aluminium untuk rumah dan bangunan komersial. Kami menggunakan bahan aluminium berkualitas tinggi yang bebas rayap, tahan cuaca, dan cocok untuk desain minimalis modern. Layanan kami tersedia untuk area Jakarta dan sekitarnya.
+          NEMU Workshop adalah spesialis jasa pembuatan dan pemasangan pagar besi rumah dengan desain modern, minimalis, dan kokoh untuk hunian maupun bangunan komersial. Kami menggunakan material besi berkualitas tinggi dengan pengerjaan rapi, kuat, dan tahan lama sehingga memberikan keamanan sekaligus meningkatkan tampilan rumah Anda. Tersedia berbagai pilihan model pagar custom sesuai kebutuhan dan konsep bangunan Anda. Layanan kami tersedia untuk area Jabodetabek dan sekitarnya.
           <br /><br />
-          <strong>Sudah siap wujudkan jendela impian di rumah Anda?</strong>
+          <strong>Siap bikin rumah Anda tampil lebih mewah, aman, dan beda dari yang lain?</strong>
         </p>
        <a
           href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"

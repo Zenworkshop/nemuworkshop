@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { FaWhatsapp } from "react-icons/fa";
-import proyek1 from "../assets/js6.jpg";
-import proyek2 from "../assets/js7.jpg";
-import proyek3 from "../assets/jendelaa.jpg";
-import proyek4 from "../assets/jsw1.jpg";
-import proyek5 from "../assets/pivot.jpg";
-import proyek6 from "../assets/jsw2.jpg";
-import proyek15 from "../assets/jsdecky.jpg";
-import proyek16 from "../assets/pivotdecky.jpg";
-import proyek17 from "../assets/ribbenhariono.jpg";
-import proyek18 from "../assets/jshariono.jpg";
-import proyek20 from "../assets/jjaldo.jpg";
-import proyek21 from "../assets/jkmtitah.jpg";
-import proyek24 from "../assets/jkmfahri.jpg";
-import proyek25 from "../assets/jofahri.jpg";
-import proyek26 from "../assets/pivotfahri.jpg";
-import proyek27 from "../assets/rumahfahri.jpg";
+import proyek1 from "../assets/pagar.jpeg";
+import proyek2 from "../assets/pagar1.jpeg";
+import proyek3 from "../assets/pagarbesi.jpg";
+import proyek4 from "../assets/pagarduma.jpeg";
+import proyek5 from "../assets/pagarduma2.jpeg";
+import proyek6 from "../assets/pagargrc.jpeg";
+import proyek15 from "../assets/pagargrc2.jpeg";
+import proyek16 from "../assets/pagargrcwood.jpeg";
+import proyek17 from "../assets/pagarhollow1.png";
+import proyek18 from "../assets/pagarhollow2.jpg";
+import proyek20 from "../assets/pagarkisikisi.jpeg";
+import proyek21 from "../assets/pagarlaser.webp";
+import proyek24 from "../assets/pagarsliding.jpeg";
+import proyek25 from "../assets/pagarsliding3.jpeg";
+import proyek26 from "../assets/pagartempa.jpg";
+import proyek27 from "../assets/pagartempa3.jpg";
 
 const images = [
   proyek1, proyek2, proyek3, proyek4, proyek5, proyek6,
@@ -48,10 +48,10 @@ export default function Jjgaleri() {
     <>
       <section className="py-16 px-4 md:px-8 max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Galeri Proyek Jendela Aluminium
+          Galeri Proyek Pagar Besi
         </h2>
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-10">
-          Lihat dokumentasi hasil pengerjaan jendela aluminium kami di berbagai proyek rumah tinggal dan bangunan komersial. Temukan inspirasi desain dan kualitas pemasangan langsung dari proyek nyata.
+          Lihat dokumentasi hasil pengerjaan pagar besi kami di berbagai proyek rumah tinggal dan bangunan komersial. Temukan inspirasi desain dan kualitas pemasangan langsung dari proyek nyata.
         </p>
 
         <div className="columns-2 md:columns-3 gap-4 space-y-4 mb-16">
@@ -109,11 +109,10 @@ export default function Jjgaleri() {
       {/* CTA Konsultasi */}
       <section className="w-full bg-[#1e3a5f] text-white py-28 px-6 md:px-20 text-center">
         <h2 className="text-3xl font-bold">
-          Konsultasi Gratis Jasa Pembuatan & Pemasangan Jendela Aluminium
+          Konsultasi Gratis Jasa Pembuatan Pagar & Konstruksi Besi
         </h2>
         <p className="mt-3 text-lg md:text-xl font-semibold leading-relaxed max-w-3xl mx-auto">
-          Butuh jendela aluminium untuk rumah atau bangunan komersial Anda?
-          Tim Zen Workshop siap membantu Anda mulai dari perencanaan hingga pemasangan. Kami melayani dengan profesionalisme tinggi dan hasil berkualitas.
+          Sedang mencari jasa pembuatan pagar besi untuk rumah atau bangunan Anda? Tim NEMU Workshop siap membantu mulai dari konsultasi desain, survey lokasi, hingga proses produksi dan pemasangan. Dikerjakan oleh tim berpengalaman dengan hasil rapi, kuat, dan sesuai kebutuhan bangunan Anda.
         </p>
 
         <div className="mt-6 flex justify-center">

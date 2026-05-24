@@ -88,8 +88,8 @@ export default function Jjchoice() {
   return (
     <section className="bg-[#0D2C40] text-white">
       <div className="pt-24 md:pt-32 pb-16 px-4 md:px-8 text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">Pilihan Jenis Jendela Aluminium</h2>
-        <p className="text-lg md:text-xl mb-10">Temukan berbagai jenis jendela aluminium terbaik yang bisa disesuaikan dengan kebutuhan rumah modern Anda. Setiap model memiliki fungsi dan keunggulan tersendiri, cocok untuk rumah minimalis, klasik, maupun komersial.</p>
+        <h2 className="text-4xl md:text-5xl font-bold mb-6">Pilihan Jenis Pagar Besi</h2>
+        <p className="text-lg md:text-xl mb-10">Temukan berbagai jenis pagar besi terbaik yang bisa disesuaikan dengan kebutuhan dan desain rumah Anda. Mulai dari pagar minimalis, sliding, laser cutting, hingga custom design — setiap model memiliki karakter dan keunggulan tersendiri untuk membuat rumah lebih aman, modern, dan estetik.</p>
 
         <div className="text-left space-y-4">
           {jenisJendela.map((item, index) => (

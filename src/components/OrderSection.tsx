@@ -87,8 +87,8 @@ export default function OrderSection() {
             </div>
             <p className="mt-4 text-gray-600 leading-relaxed text-center md:text-left">
               Kami selalu berkomitmen memberikan 
-              <span className="font-semibold"> layanan pemasangan aluminium terbaik untuk rumah dan bangunan Anda</span>. 
-              Konsultasi terasa nyaman seperti berbicara dengan teman, sambil mendapatkan solusi aluminium terbaik sesuai kebutuhan proyek Anda.
+              <span className="font-semibold"> layanan pembuatan pagar dan konstruksi besi terbaik untuk rumah maupun bangunan Anda.</span>. 
+              roses konsultasi dibuat nyaman dan mudah dipahami, sambil membantu Anda menemukan desain pagar, kanopi, railing, atau konstruksi besi yang paling sesuai dengan kebutuhan dan tampilan bangunan Anda.
             </p>
 
             {/* Tombol Kontak WA */}

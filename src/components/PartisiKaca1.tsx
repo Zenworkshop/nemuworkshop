@@ -96,11 +96,10 @@ export default function PintuSlidingPage() {
 >
   <div className="max-w-4xl mx-auto">
     <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-      Jasa Pembuatan Partisi Kaca Aluminium Profesional & Estetik
+      Jasa Pembuatan Railing Tangga & Balkon Minimalis Modern
     </h1>
     <p className="text-lg md:text-xl text-white/90 mb-8">
-      Solusi modern untuk sekat ruangan kantor, rumah, atau bangunan komersial.
-      Tampilan elegan, pencahayaan maksimal, dan tetap menjaga privasi tanpa bikin ruangan terasa sempit.
+      Hadirkan tampilan rumah yang lebih aman, elegan, dan modern dengan railing tangga serta balkon berkualitas. Cocok untuk rumah tinggal, apartemen, hingga bangunan komersial dengan desain custom yang kokoh, estetik, dan menyesuaikan konsep bangunan Anda.
     </p>
       <a
         href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
@@ -149,20 +148,20 @@ export default function PintuSlidingPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Sekat Ruangan Konvensional Bikin Ruangan Terasa Sempit dan Gelap?
+              Railing Tangga & Balkon Lama Bikin Tampilan Rumah Terlihat Kuno?
             </h2>
 
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-              Banyak ruangan kantor atau rumah terasa tidak nyaman karena penggunaan sekat tembok yang menutup cahaya alami
-        dan membuat ruang terlihat kecil. Ini jadi masalah umum yang sering kami temui saat renovasi ruang kerja atau ruang tamu.
+              Banyak rumah terasa kurang modern dan kurang aman karena penggunaan railing yang sudah usang, berkarat, atau desainnya tidak sesuai dengan konsep rumah masa kini. Ini jadi salah satu detail penting yang sering mempengaruhi tampilan keseluruhan rumah.
             </p>
 
             <ul className="space-y-5 text-lg">
               {[
-                "Terlalu banyak tembok bikin ruangan sumpek dan tidak lega",
-                "Kurang cahaya alami yang masuk ke dalam ruangan",
-                "Tampilan kantor jadi sempit dan membosankan",
-                "Susah diawasi, tapi tetap butuh batasan antar ruang",
+                "Railing lama terlihat berkarat dan kurang estetik",
+                "Desain tangga atau balkon terasa ketinggalan zaman",
+                "Rumah terlihat kurang modern dan kurang elegan",
+                "Khawatir keamanan railing sudah tidak kokoh",
+                "Bingung memilih model railing yang cocok untuk rumah minimalis",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <CheckCircle size={24} className="text-blue-500 mt-1" />

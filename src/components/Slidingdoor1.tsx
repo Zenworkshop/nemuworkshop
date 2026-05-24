@@ -5,15 +5,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
-import proyek1 from "../assets/pintusliding.jpg";
-import proyek2 from "../assets/pintusliding1.jpg";
-import proyek3 from "../assets/psfahri.jpg";
-import proyek4 from "../assets/sliding.jpg";
-import proyek5 from "../assets/ps1.jpg";
-import proyek6 from "../assets/ps2.jpg";
-import proyek15 from "../assets/ps3.jpg";
-import proyek16 from "../assets/ps4.jpg";
-import proyek17 from "../assets/ps5.jpg";
+import proyek1 from "../assets/kanopi.jpg";
+import proyek2 from "../assets/kanopikaca.jpeg";
+import proyek3 from "../assets/kanopi4.jpeg";
+import proyek4 from "../assets/kanopisolar1.jpg";
+import proyek5 from "../assets/kanopi6.jpeg";
+import proyek6 from "../assets/kanopisliding.jpeg";
+import proyek15 from "../assets/kanopialderon.jpeg";
+import proyek16 from "../assets/kanopi10.jpeg";
+import proyek17 from "../assets/kanopi11.jpeg";
 import pesananimg from "../assets/sectionn.png";
 
 export const metadata = {
@@ -58,10 +58,10 @@ export default function PintuSlidingPage() {
         >
           <div className="max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Jasa Pintu Sliding Aluminium Minimalis & Modern
+              Jasa Pembuatan Kanopi Minimalis & Modern
             </h1>
             <p className="text-lg md:text-xl mb-6">
-              Kami menyediakan layanan pembuatan dan pemasangan pintu sliding aluminium untuk rumah tinggal, apartemen, dan bangunan komersial. Desain elegan, tahan lama, dan hemat ruang.
+              Kami menyediakan layanan pembuatan dan pemasangan kanopi untuk rumah tinggal, ruko, area komersial, hingga bangunan modern lainnya. Menggunakan material berkualitas seperti alderon, solarflat, spandek, hingga kaca — dengan desain modern, kokoh, tahan cuaca, dan menyesuaikan tampilan bangunan Anda.
             </p>
             <a
               href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
@@ -86,7 +86,7 @@ export default function PintuSlidingPage() {
 
         {/* Judul Tengah */}
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-          Kenapa Memilih Pintu Sliding Aluminium untuk Rumah Anda?
+          Kenapa harus pasang kanopi?
         </h2>
 
         {/* Gambar ditampilkan lebih dulu di mobile */}
@@ -105,29 +105,29 @@ export default function PintuSlidingPage() {
           <div className="md:w-1/2 w-full md:flex md:flex-col md:justify-center space-y-6 px-4 md:px-0">
             {[
               {
-                title: "Hemat Ruang dan Fleksibel",
+                title: "Melindungi Area Rumah dari Panas & Hujan",
                 content:
-                  "Pintu sliding aluminium tidak memerlukan ruang bukaan seperti pintu konvensional. Cocok digunakan di area sempit atau desain rumah minimalis modern, menjadikannya solusi hemat ruang yang fungsional dan fleksibel.",
+                  "Kanopi membantu melindungi teras, carport, maupun area outdoor dari paparan panas matahari dan hujan secara langsung. Aktivitas di luar rumah jadi lebih nyaman setiap hari.",
               },
               {
-                title: "Tampilan Modern dan Elegan",
+                title: "Membuat Tampilan Rumah Lebih Modern",
                 content:
-                  "Desain pintu aluminium sliding menawarkan kesan modern, simpel, dan bersih. Cocok untuk rumah bergaya minimalis, industrial, hingga komersial seperti kantor atau showroom.",
+                  "Desain kanopi yang tepat dapat mempercantik tampilan fasad rumah secara keseluruhan. Cocok untuk rumah minimalis, industrial, hingga modern contemporary.",
               },
               {
-                title: "Tahan Lama dan Anti Karat",
+                title: "Material Kuat dan Tahan Lama",
                 content:
-                  "Terbuat dari bahan aluminium berkualitas yang tahan terhadap cuaca, tidak berkarat, serta bebas rayap. Pintu ini sangat ideal untuk penggunaan jangka panjang tanpa perawatan rutin yang merepotkan.",
+                  "Menggunakan material berkualitas seperti besi hollow, baja ringan, dan atap premium membuat kanopi lebih kokoh, tahan cuaca, dan minim perawatan dalam jangka panjang.",
               },
               {
-                title: "Meningkatkan Nilai Estetika",
+                title: "Menambah Nilai dan Fungsi Bangunan",
                 content:
-                  "Dengan tampilan ramping dan bingkai tipis, pintu sliding aluminium membantu menonjolkan elemen desain interior maupun eksterior, serta memberi kesan mewah dan profesional pada bangunan.",
+                  "Selain melindungi kendaraan dan area outdoor, kanopi juga meningkatkan nilai estetika serta fungsi rumah agar terlihat lebih rapi dan premium.",
               },
               {
-                title: "Investasi Jangka Panjang",
+                title: "Bisa Custom Sesuai Kebutuhan",
                 content:
-                  "Meski awalnya lebih mahal dari kayu biasa, pintu sliding aluminium memiliki umur pakai lebih panjang dan tidak memerlukan biaya perawatan tinggi, menjadikannya pilihan ekonomis jangka panjang.",
+                  "Mulai dari ukuran, model, warna, hingga jenis atap bisa disesuaikan dengan kebutuhan dan desain rumah Anda. Hasilnya lebih presisi dan menyatu dengan konsep bangunan.",
               },
             ].map((item, index) => (
               <div
@@ -184,41 +184,40 @@ export default function PintuSlidingPage() {
 
             {/* Heading */}
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Untuk Siapa Pintu Sliding Aluminium Cocok?
+              Berbagai Jenis Kanopi untuk Rumah & Bangunan
             </h2>
 
             {/* Deskripsi */}
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-12">
-              Pintu sliding aluminium cocok digunakan untuk berbagai jenis bangunan — dari rumah tinggal
-              hingga ruang komersial. Desainnya yang hemat tempat, tahan lama, dan elegan membuatnya ideal untuk banyak kebutuhan.
+              Kami menyediakan berbagai jenis kanopi berkualitas untuk rumah tinggal, carport, teras, cafe, hingga bangunan komersial. Mulai dari kanopi alderon, polycarbonate, kaca, spandek, hingga membrane — semuanya bisa disesuaikan dengan kebutuhan desain dan fungsi bangunan Anda. Tampil lebih modern, terlindungi dari panas dan hujan, serta menggunakan material yang kuat dan tahan lama.
             </p>
 
             {/* Grid Konten */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
-                  title: "Rumah Minimalis",
-                  desc: "Pintu sliding aluminium sangat cocok untuk rumah bergaya minimalis. Ideal digunakan di ruang tamu, dapur, dan kamar tidur karena desainnya yang hemat ruang dan modern.",
+                  title: "Kanopi Polycarbonate",
+                  desc: "Kanopi polycarbonate memiliki tampilan transparan yang modern dan elegan. Material ini memungkinkan cahaya tetap masuk namun tetap melindungi area dari hujan dan panas.",
                 },
                 {
-                  title: "Kantor & Ruang Kerja",
-                  desc: "Solusi efisien untuk kantor atau ruang kerja modern. Memberikan tampilan profesional dan memungkinkan cahaya alami masuk lebih banyak.",
+                  title: "Kanopi Alderon",
+                  desc: "Kanopi alderon terkenal karena mampu meredam panas dan suara hujan dengan baik. Cocok untuk carport, teras, maupun area outdoor rumah modern.",
                 },
                 {
-                  title: "Apartemen & Kondominium",
-                  desc: "Maksimalkan tata letak apartemen dengan pintu sliding aluminium yang ramping dan tidak memakan banyak tempat.",
+                  title: "Kanopi Kaca",
+                  desc: "Kanopi kaca memberikan kesan mewah dan minimalis pada rumah maupun bangunan komersial. Biasanya dipadukan dengan rangka besi atau stainless untuk tampilan premium.",
                 },
                 {
-                  title: "Cafe & Retail",
-                  desc: "Cocok untuk usaha seperti cafe, butik, dan toko retail. Memberikan kesan welcoming, modern, dan mudah dibuka tutup.",
+                  title: "Kanopi Spandek",
+                  desc: "Kanopi spandek dikenal kuat, ringan, dan ekonomis. Banyak digunakan untuk area parkir, gudang, hingga rumah tinggal karena pemasangannya praktis.",
                 },
                 {
-                  title: "Balkon & Taman",
-                  desc: "Hubungkan area indoor dengan outdoor tanpa hambatan. Cocok untuk pintu ke arah balkon, taman, atau kolam renang.",
+                  title: "Kanopi Hollow Minimalis",
+                  desc: "Kanopi dengan rangka besi hollow minimalis sangat populer untuk rumah modern. Desainnya simpel, kokoh, dan bisa dicustom sesuai konsep bangunan.",
                 },
                 {
-                  title: "Showroom & Hotel",
-                  desc: "Berikan kesan elegan dan mewah di ruang komersial seperti showroom, lobi hotel, atau ruang konferensi.",
+                  title: "Kanopi Baja Ringan",
+                  desc: "Kanopi baja ringan memiliki struktur yang kuat namun tetap ringan. Tahan karat dan cocok digunakan untuk berbagai jenis atap kanopi.",
                 },
               ].map((item, index) => (
                 <motion.div
@@ -243,10 +242,10 @@ export default function PintuSlidingPage() {
       {/* Galeri */}
       <motion.section className="py-16 px-4 md:px-8 max-w-6xl mx-auto" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
         <h2 className="text-3xl md:text-4xl font-bold text-center">
-          Contoh Proyek Pintu Sliding Aluminium Zen Workshop
+          Contoh Proyek Kanopi Rumah NEMU Workshop
         </h2>
         <p className="text-lg text-center text-gray-600 max-w-2xl mx-auto mt-4 mb-12">
-          Galeri hasil pemasangan pintu sliding aluminium dari proyek rumah, apartemen, dan bangunan komersial. Kami melayani berbagai kebutuhan desain minimalis modern untuk area Jabodetabek dan sekitarnya.
+          Galeri hasil pemasangan berbagai jenis kanopi untuk rumah tinggal, carport, cafe, dan bangunan komersial. Mulai dari kanopi alderon, polycarbonate, kaca, hingga kanopi minimalis custom — semua dikerjakan rapi, presisi, dan menyesuaikan desain bangunan modern di area Jabodetabek dan sekitarnya.
         </p>
         <div className="columns-2 md:columns-3 gap-4 space-y-4 mb-16">
           {galleryImages.map((src, index) => (
@@ -271,7 +270,7 @@ export default function PintuSlidingPage() {
       {/* Tahapan Pemesanan */}
         <section className="bg-gray-50 py-20 px-4 md:px-8">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-8">Proses Pemesanan Pintu Sliding Aluminium</h2>
+            <h2 className="text-4xl font-bold mb-8">Proses Pemesanan Kanopi</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-left">
               
               {/* Gambar dan Paragraf */}
@@ -283,7 +282,7 @@ export default function PintuSlidingPage() {
                   />
 
                   <p className="text-gray-600 leading-relaxed mb-4">
-                    Kami memberikan <span className="font-semibold">layanan konsultasi, survey, hingga pemasangan pintu sliding aluminium</span> dengan proses yang transparan dan profesional. Cocok untuk rumah minimalis maupun bangunan komersial.
+                    Kami memberikan <span className="font-semibold">layanan konsultasi, survey, hingga pemasangan kanopi</span> dengan proses yang transparan dan profesional. Cocok untuk rumah minimalis maupun bangunan komersial.
                   </p>
 
                   <div className="flex justify-center md:justify-start">
@@ -354,7 +353,7 @@ export default function PintuSlidingPage() {
 
     {/* Judul */}
     <h2 className="text-4xl font-bold mb-6">
-      FAQ Pintu Sliding Aluminium
+      FAQ Kanopi
     </h2>
 
     {/* Grid: Gambar & Konten */}
@@ -374,24 +373,24 @@ export default function PintuSlidingPage() {
 
         {[ 
           { 
-            question: "Apa kelebihan pintu sliding aluminium dibandingkan dengan pintu kayu?", 
-            answer: "Pintu sliding aluminium lebih tahan terhadap cuaca, tidak dimakan rayap, dan tampilannya lebih modern. Selain itu, aluminium juga tidak memerlukan perawatan seperti pengecatan ulang, berbeda dengan pintu kayu yang bisa melengkung atau lapuk." 
+            question: "Berapa harga pembuatan kanopi per meter?", 
+            answer: "Harga kanopi tergantung jenis material, ukuran, desain, dan lokasi pemasangan. Kami menyediakan berbagai pilihan kanopi yang bisa disesuaikan dengan budget dan kebutuhan Anda." 
           },
           { 
-            question: "Berapa lama proses pengerjaan dan pemasangan?", 
-            answer: "Waktu pengerjaan dan pemasangan pintu sliding aluminium umumnya memakan waktu 5–10 hari kerja, tergantung jumlah unit dan lokasi proyek. Proses bisa lebih cepat jika ukuran sudah pasti sejak awal." 
+            question: "Jenis kanopi apa yang paling cocok untuk rumah minimalis?", 
+            answer: "ntuk rumah minimalis, jenis kanopi yang paling sering digunakan adalah alderon, polycarbonate, dan kanopi hollow minimalis karena tampilannya modern, rapi, dan cocok untuk desain rumah masa kini." 
           },
           { 
-            question: "Apakah bisa custom ukuran dan warna?", 
-            answer: "Ya, pintu aluminium bisa dipesan sesuai ukuran dan warna yang kamu inginkan. Tersedia pilihan finishing seperti hitam doff, silver, putih, hingga motif kayu untuk menyesuaikan desain rumah." 
+            question: "Apakah bisa custom desain kanopi sesuai rumah?", 
+            answer: "Tentu bisa. Kami melayani pembuatan kanopi custom mulai dari ukuran, model rangka, warna, hingga jenis atap agar hasilnya menyatu dengan desain rumah Anda." 
           },
           { 
-            question: "Apakah mudah dibersihkan?", 
-            answer: "Sangat mudah. Cukup dilap dengan kain lembap, tanpa perlu cairan khusus. Aluminium tidak menyerap air, tidak berkarat, dan tahan noda, sehingga ideal untuk area luar maupun dalam ruangan." 
+            question: "Berapa lama proses pembuatan dan pemasangan kanopi?", 
+            answer: "Waktu pengerjaan biasanya menyesuaikan ukuran dan tingkat kesulitan proyek. Rata-rata proses produksi dan pemasangan memakan waktu beberapa hari setelah survei dan deal proyek." 
           },
           { 
-            question: "Berapa harga per meter?", 
-            answer: "Harga bervariasi tergantung spesifikasi. Harga pintu sliding aluminium standar mulai dari Rp2.500.000 per daun, sudah termasuk kusen, kaca, dan aksesoris. Untuk ukuran custom atau tambahan fitur, biaya akan disesuaikan." 
+            question: "Apakah melayani survey dan konsultasi gratis?", 
+            answer: "Ya, tim kami siap membantu konsultasi dan survey gratis untuk area tertentu agar Anda bisa mendapatkan rekomendasi kanopi terbaik sesuai kebutuhan bangunan." 
           }
         ].map((item, index) => (
           <div
@@ -431,8 +430,8 @@ export default function PintuSlidingPage() {
       {/* CTA */}
         <section className="w-full min-h-screen bg-white text-gray-900 px-6 md:px-20 flex flex-col items-center justify-center text-center">
           <div>
-            <h2 className="text-3xl md:text-5xl font-bold">Siap Memulai Pemasangan Pintu Sliding Aluminium di Rumah Anda?</h2>
-            <p className="mt-4 text-lg md:text-xl font-semibold">Dapatkan layanan konsultasi gratis dari Zen Workshop untuk pemasangan pintu aluminium sliding minimalis, modern, dan tahan lama. Cocok untuk rumah, apartemen, atau kantor Anda.</p>
+            <h2 className="text-3xl md:text-5xl font-bold">Siap Memasang Kanopi untuk Rumah atau Bangunan Anda?</h2>
+            <p className="mt-4 text-lg md:text-xl font-semibold">Dapatkan layanan konsultasi gratis dari NEMU Workshop untuk pembuatan dan pemasangan kanopi minimalis, modern, dan tahan lama. Cocok untuk carport, teras rumah, cafe, hingga area komersial dengan pilihan berbagai jenis kanopi sesuai kebutuhan Anda.</p>
             <div className="mt-6 flex justify-center">
               <a
                 href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"

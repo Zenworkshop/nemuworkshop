@@ -6,39 +6,34 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { CheckCircle } from "lucide-react";
 
-import proyek1 from "../assets/pk/pk1.jpg";
-import proyek2 from "../assets/pk/pk2.jpg";
-import proyek3 from "../assets/pk/pk3.jpg";
-import proyek4 from "../assets/pk/pk4.jpg";
-import proyek5 from "../assets/pk/pk5.jpg";
-import proyek6 from "../assets/pk/pk6.jpg";
-import proyek7 from "../assets/pk/pk7.jpg";
-import proyek8 from "../assets/pk/pk8.jpg";
-import proyek9 from "../assets/pk/pk9.jpg";
-import proyek10 from "../assets/pk/pk10.jpg";
-import proyek11 from "../assets/pk/pk11.jpg";
-import proyek12 from "../assets/pk/pk12.jpg";
-import proyek13 from "../assets/pk/pk13.jpg";
-import proyek14 from "../assets/pk/pk14.jpg";
-import proyek15 from "../assets/pk/pk15.jpg";
-import proyek16 from "../assets/pk/pk16.jpg";
-import proyek17 from "../assets/pk/pk17.jpg";
-import proyek18 from "../assets/pk/pk18.jpg";
-import proyek19 from "../assets/pk/pk19.jpg";
-import proyek20 from "../assets/pk/pk20.jpg";
-import proyek21 from "../assets/pk/pk21.jpg";
-import proyek22 from "../assets/pk/pk22.jpg";
-import proyek23 from "../assets/pk/pk23.jpg";
-import proyek24 from "../assets/pk/pk24.jpg";
-import proyek25 from "../assets/pk/pk25.jpg";
-import proyek26 from "../assets/pk/pk26.jpg";
+import proyek1 from "../assets/railingstainless.jpg";
+import proyek2 from "../assets/railingtangga12.jpeg";
+import proyek3 from "../assets/railinglasercuting.webp";
+import proyek4 from "../assets/railingtangga4.jpeg";
+import proyek5 from "../assets/railingbalkonmodern.jpg";
+import proyek6 from "../assets/railingkaca.jpeg";
+import proyek7 from "../assets/railingtangga.jpeg";
+import proyek8 from "../assets/railingtangga10.jpeg";
+import proyek9 from "../assets/railingtangga11.jpeg";
+import proyek10 from "../assets/railingtangga12.jpeg";
+import proyek11 from "../assets/railingtangga13.jpeg";
+import proyek12 from "../assets/railingtangga2.jpeg";
+import proyek13 from "../assets/railingtangga3.jpeg";
+import proyek14 from "../assets/railingtangga6.jpeg";
+import proyek15 from "../assets/railingtangga5.jpeg";
+import proyek16 from "../assets/railingtangga7.jpeg";
+import proyek17 from "../assets/railingtangga8.jpeg";
+import proyek18 from "../assets/railingbalkon.webp";
+import proyek19 from "../assets/railingbalkon3.jpg";
+import proyek20 from "../assets/railingbalkonkaca.webp";
+import proyek21 from "../assets/railingbalkonkaca2.png";
 import pesananimg from "../assets/sectionn.png";
-import solutiomimg from "../assets/partisi.jpg";
-import partisi1 from "../assets/partisi.jpg";
-import partisi3 from "../assets/partisikacaframeless.jpg";
-import partisi5 from "../assets/partisikacarusak.jpg";
-import partisi6 from "../assets/minimalisframe.jpg";
-import partisi7 from "../assets/pkgita.jpg";
+import solutiomimg from "../assets/railingtangga.jpeg";
+import partisi1 from "../assets/railingkaca.jpeg";
+import partisi3 from "../assets/railingtangga2.jpeg";
+import partisi5 from "../assets/railingkaca.jpeg";
+import partisi6 from "../assets/railingbalkonmodern.jpg";
+import partisi7 from "../assets/railingtangga6.jpeg";
 
 
 
@@ -56,7 +51,7 @@ export const metadata = {
 
 const galleryImages = [proyek1, proyek2, proyek3, proyek4, proyek5, proyek6, proyek7, proyek8, proyek9, proyek10,
   proyek11, proyek12, proyek13, proyek14, proyek15, proyek16, proyek17, proyek18, proyek19, proyek20,
-  proyek21, proyek22, proyek23, proyek24, proyek25, proyek26];
+  proyek21]; 
 
 export default function PintuSlidingPage() {
   const fadeIn = { hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } };
@@ -189,17 +184,17 @@ export default function PintuSlidingPage() {
           {/* Tulisan - Kiri */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
-              Partisi Kaca Aluminium, Solusi Sekat Modern Tanpa Bikin Sempit
+             Railing Tangga & Balkon Modern, Bikin Rumah Lebih Aman & Elegan
             </h2>
             <p className="text-lg md:text-xl text-white/90 mb-8">
-              Ingin memisahkan ruangan tanpa bikin ruang terasa gelap atau sempit? Partisi kaca aluminium jadi solusi modern yang tetap estetik dan efisien.
+              Ingin tampilan tangga atau balkon rumah terlihat lebih modern tanpa menghilangkan fungsi keamanannya? Railing tangga dan balkon jadi solusi yang bikin rumah terasa lebih premium, rapi, dan nyaman dipandang.
             </p>
 
             <div className="space-y-5">
               {[
-                "Transparan tapi tetap terstruktur",
-                "Cahaya tetap masuk, ruangan terasa luas",
-                "Desain bisa custom sesuai kebutuhan"
+                "Tampilan rumah jadi lebih modern & estetik",
+                "Material kuat, kokoh, dan tahan lama",
+                "Desain bisa custom sesuai konsep rumah Anda"
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <span className="text-green-400 text-2xl mt-1">✅</span>
@@ -241,24 +236,44 @@ export default function PintuSlidingPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  name: "Partisi Kaca Frameless",
-                  desc: "Tampilan bersih dan modern tanpa rangka terlihat, cocok untuk ruang meeting atau kantor minimalis.",
+                  name: "Railing Tangga Minimalis",
+                  desc: "Cocok untuk rumah modern dengan desain simpel, clean, dan tetap elegan tanpa terlihat berlebihan.",
                   img: partisi3
                 },
                 {
-                  name: "Partisi Kaca Minimal Frame",
-                  desc: "Rangka tipis dengan kesan ringan dan elegan, tetap memberi struktur tanpa mengganggu cahaya alami.",
+                  name: "Railing Balkon Modern",
+                  desc: "Membuat area balkon terlihat lebih aman sekaligus meningkatkan tampilan fasad rumah agar lebih mewah.",
                   img: partisi6
                 },
                 {
-                  name: "Partisi Kaca Aluminium Hitam",
-                  desc: "Desain industrial modern yang tegas, cocok untuk kantor kreatif atau kafe dengan aksen maskulin.",
+                  name: "Railing Kaca Tempered",
+                  desc: "Memberikan kesan luas, clean, dan premium. Sangat cocok untuk rumah minimalis modern dan area indoor maupun outdoor.",
                   img: partisi1
                 },
                 {
-                  name: "Partisi Kaca Buram (Privacy)",
-                  desc: "Memberi privasi tanpa mengorbankan pencahayaan, ideal untuk ruang rapat atau ruang pribadi.",
+                  name: "Railing besi hollow",
+                  desc: "Menggunakan material besi hollow yang kuat, awet, dan fleksibel untuk berbagai model desain rumah.",
                   img: partisi7
+                },
+                {
+                  name: "Railing Stainless Steel",
+                  desc: "Tampil modern dengan material anti karat dan minim perawatan. Cocok untuk rumah maupun bangunan komersial.",
+                  img: proyek1
+                },
+                {
+                  name: "Railing Kombinasi Kayu & Besi",
+                  desc: "Perpaduan nuansa natural dan industrial yang membuat rumah terasa lebih hangat dan estetik.",
+                  img: proyek2
+                },
+                {
+                  name: "Railing Laser Cutting",
+                  desc: "Memiliki motif custom modern yang bisa disesuaikan dengan konsep interior maupun eksterior rumah Anda.",
+                  img: proyek3
+                },
+                {
+                  name: "Railing Industrial Style",
+                  desc: "Cocok untuk konsep rumah industrial modern dengan tampilan tegas, simpel, dan maskulin.",
+                  img: proyek4
                 }
               ].map((item, index) => (
                 <motion.div

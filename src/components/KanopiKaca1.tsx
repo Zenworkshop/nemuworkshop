@@ -6,15 +6,15 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { CheckCircle } from "lucide-react";
 
-import proyek1 from "../assets/kk/kk1.jpg";
-import proyek2 from "../assets/kk/kk2.jpg";
-import proyek3 from "../assets/kk/kk3.jpg";
-import proyek4 from "../assets/kk/kk4.jpg";
-import proyek5 from "../assets/kk/kk5.jpg";
-import proyek6 from "../assets/kk/kk6.jpg";
-import proyek7 from "../assets/kk/kk7.jpg";
-import proyek8 from "../assets/kk/kk8.jpg";
-import proyek9 from "../assets/kk/kk9.jpg";
+import proyek1 from "../assets/stainles.webp";
+import proyek2 from "../assets/stainles2.webp";
+import proyek3 from "../assets/stainles3.jpg";
+import proyek4 from "../assets/stainles4.jpg";
+import proyek5 from "../assets/stainles5.jpg";
+import proyek6 from "../assets/stainles6.jpg";
+import proyek7 from "../assets/stainles7.jpg";
+import proyek8 from "../assets/stainles8.webp";
+import proyek9 from "../assets/stainles9.png";
 import proyek10 from "../assets/kk/kk10.jpg";
 import proyek11 from "../assets/kk/kk11.jpg";
 import proyek12 from "../assets/kk/kk12.jpg";
@@ -64,7 +64,7 @@ export default function PintuSlidingPage() {
   return (
     <>
       
-     {/* HERO SECTION: Pintu Floor Hinge Aluminium */}
+        {/* HERO SECTION: Stainless Steel */}
         <motion.section
           className="bg-gradient-to-br from-[#0D2C40] to-[#1A4365] text-white py-28 px-6 md:px-12 flex items-center justify-center min-h-screen"
           initial="hidden"
@@ -77,16 +77,20 @@ export default function PintuSlidingPage() {
         >
           <div className="max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Jasa Pembuatan Kanopi Kaca Berkualitas – Estetik, Kuat, dan Tahan Cuaca
+              Jasa Pembuatan & Pemasangan Stainless Steel Modern dan Elegan
             </h1>
+
             <p className="text-lg md:text-xl text-white/90 mb-8">
-              Butuh perlindungan dari panas dan hujan tanpa mengurangi kesan modern? Zen Workshop hadir dengan <strong>layanan pembuatan kanopi kaca custom</strong> untuk rumah tinggal, toko, ruko, dan kantor. Tampil lebih elegan dan fungsional!
+              Tingkatkan tampilan rumah, kantor, cafe, hingga bangunan komersial Anda dengan 
+              <strong> stainless steel custom </strong>
+              yang kokoh, anti karat, dan tampil mewah. Nemu Workshop melayani pembuatan railing, pagar, canopy, handrail, hingga berbagai kebutuhan stainless steel lainnya dengan hasil rapi dan presisi.
             </p>
+
             <a
-              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20stainless%20steel%20dari%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
               onClick={() => {
                 fbq('track', 'Contact');
-                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
+                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20stainless%20steel%20dari%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
               }}
               target="_blank"
               rel="noopener noreferrer"
@@ -94,63 +98,69 @@ export default function PintuSlidingPage() {
             >
               <FaWhatsapp size={20} /> Konsultasi Gratis Sekarang
             </a>
-
-
           </div>
         </motion.section>
 
 
-    {/* KENAPA PILIH PINTU FLOOR HINGE */}
-      <section className="bg-white py-24 px-4 md:px-8 text-gray-900">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-          
-          {/* Kiri - Gambar */}
-          <motion.div
-            className="flex"
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <div className="w-full h-full max-h-[600px] rounded-2xl overflow-hidden shadow-lg flex-1">
-              <img
-                src={proyek2}
-                alt="Contoh pemasangan pintu kaca floor hinge"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </motion.div>
 
-          {/* Kanan - Teks */}
-          <motion.div
-            className="flex flex-col justify-center"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Kenapa Harus Pilih Kanopi Kaca?
-            </h2>
-            <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-              Kanopi kaca adalah pilihan favorit untuk hunian modern dan area komersial. Selain memberikan perlindungan dari panas & hujan, tampilannya tetap <strong>elegan, transparan, dan tidak mengganggu estetika fasad bangunan</strong>.
-            </p>
-            <ul className="space-y-5 text-lg">
-              {[
-                "Tampilan modern dan transparan, cocok untuk gaya arsitektur minimalis",
-                "Tahan cuaca ekstrem – melindungi dari panas matahari dan air hujan",
-                "Tidak berkarat & minim perawatan dibandingkan atap logam",
-                "Ideal untuk area carport, taman, teras, balkon, atau lorong rumah"
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <CheckCircle size={24} className="text-blue-500 mt-1" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-        </div>
-      </section>
+
+          {/* KENAPA PILIH STAINLESS STEEL */}
+          <section className="bg-white py-24 px-4 md:px-8 text-gray-900">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+              
+              {/* Kiri - Gambar */}
+              <motion.div
+                className="flex"
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+              >
+                <div className="w-full h-full max-h-[600px] rounded-2xl overflow-hidden shadow-lg flex-1">
+                  <img
+                    src={proyek2}
+                    alt="Contoh pemasangan stainless steel"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </motion.div>
+
+              {/* Kanan - Teks */}
+              <motion.div
+                className="flex flex-col justify-center"
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+              >
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                  Kenapa Banyak Orang Pilih Stainless Steel?
+                </h2>
+
+                <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+                  Stainless steel menjadi pilihan favorit untuk rumah modern dan bangunan komersial karena tampilannya yang 
+                  <strong> elegan, bersih, tahan karat, dan minim perawatan</strong>. 
+                  Cocok digunakan untuk railing, pagar, handrail, kanopi, hingga berbagai kebutuhan interior dan eksterior lainnya.
+                </p>
+
+                <ul className="space-y-5 text-lg">
+                  {[
+                    "Tampilan modern dan mewah untuk berbagai konsep bangunan",
+                    "Anti karat dan tahan terhadap cuaca ekstrem",
+                    "Konstruksi kuat dan awet untuk penggunaan jangka panjang",
+                    "Perawatan lebih mudah dibanding material besi biasa",
+                    "Cocok untuk interior maupun eksterior rumah dan bangunan komersial"
+                  ].map((item, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <CheckCircle size={24} className="text-blue-500 mt-1" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </motion.div>
+            </div>
+          </section>
+
 
     {/* JENIS & APLIKASI */}
       <section className="bg-[#0D2C40] text-white py-24 px-4 md:px-8">

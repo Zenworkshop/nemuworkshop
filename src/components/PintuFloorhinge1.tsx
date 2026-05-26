@@ -260,7 +260,7 @@ export default function PintuSlidingPage() {
         {/* Tahapan Pemesanan */}
           <section className="bg-[#0D2C40] text-white py-20 px-4 md:px-8">
             <div className="max-w-6xl mx-auto text-center">
-              <h2 className="text-4xl font-bold mb-8">Proses Pemesanan Pintu Floorhinge</h2>
+              <h2 className="text-4xl font-bold mb-8">Proses Pemesanan Mezzanine</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-left">
                 
                 {/* Gambar dan Paragraf */}
@@ -271,7 +271,7 @@ export default function PintuSlidingPage() {
               className="rounded-lg shadow-lg mb-6 mx-auto sm:max-w-[250px] md:max-w-[400px] lg:max-w-[400px] h-auto"
             />                              
             <p className="text-white/90 leading-relaxed mb-4">
-              Kami memberikan <span className="font-semibold text-white">layanan konsultasi, survey, hingga pemasangan pintu sliding aluminium</span> dengan proses yang transparan dan profesional. Cocok untuk rumah minimalis maupun bangunan komersial.
+              Kami memberikan <span className="font-semibold text-white">layanan konsultasi, survey, hingga pemasangan Mezzanine</span> dengan proses yang transparan dan profesional. Cocok untuk rumah minimalis maupun bangunan komersial.
             </p>
             <a
               href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
@@ -293,7 +293,7 @@ export default function PintuSlidingPage() {
           {
             id: "01",
             title: "Hubungi Kami",
-            desc: "Diskusikan kebutuhan pintu sliding aluminium Anda melalui WhatsApp atau telepon.",
+            desc: "Diskusikan kebutuhan Mezzanine Anda melalui WhatsApp atau telepon.",
           },
           {
             id: "02",
@@ -313,7 +313,7 @@ export default function PintuSlidingPage() {
           {
             id: "05",
             title: "Proses Produksi & Pemasangan",
-            desc: "Pintu aluminium diproduksi dan dipasang oleh tim berpengalaman dari Zen Workshop.",
+            desc: "Mezzanine diproduksi dan dipasang oleh tim berpengalaman dari Nemu Workshop.",
           },
         ].map((step) => (
           <motion.div
@@ -334,154 +334,107 @@ export default function PintuSlidingPage() {
   </div>
 </section>
 
-        {/* Testimoni Klien - Floor Hinge */}
-        <section className="bg-white py-20 px-4 md:px-8 text-gray-900">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-              Testimoni Klien Pemasangan Pintu Floor Hinge
+  
+      {/* Testimoni Klien - Mezanin Besi */}
+      <section className="bg-white py-20 px-4 md:px-8 text-gray-900">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+            Testimoni Klien Pembuatan Mezanin Besi
+          </h2>
+
+          <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth pb-4">
+            {[
+              {
+                name: "Rizky Pratama",
+                job: "Pemilik Gudang Sparepart, Bekasi",
+                message:
+                  "Mezanin besi dari Nemu Workshop bikin area gudang kami jauh lebih maksimal. Struktur kokoh dan pengerjaannya rapi.",
+              },
+              {
+                name: "Lina Marlina",
+                job: "Owner Cafe Industrial, Jakarta Selatan",
+                message:
+                  "Konsep cafe jadi lebih estetik dengan tambahan mezanin. Tim Nemu juga membantu menyesuaikan desain dengan interior kami.",
+              },
+              {
+                name: "Hendra Gunawan",
+                job: "Pemilik Workshop, Tangerang",
+                message:
+                  "Awalnya ruang workshop terasa sempit, sekarang jauh lebih efisien setelah dibuatkan mezanin besi oleh Nemu Workshop.",
+              },
+              {
+                name: "Veronika Ayu",
+                job: "Interior Designer, Jakarta Pusat",
+                message:
+                  "Saya sering rekomendasikan Nemu Workshop untuk proyek mezanin klien karena hasil finishing dan detail konstruksinya bagus.",
+              },
+              {
+                name: "Fajar Ramadhan",
+                job: "Pemilik Toko Fashion, Depok",
+                message:
+                  "Mezanin tambahan sangat membantu untuk area penyimpanan stok barang. Konstruksinya kuat dan tetap terlihat modern.",
+              },
+              {
+                name: "Yohana Widya",
+                job: "Pemilik Rumah Minimalis, Bogor",
+                message:
+                  "Rumah jadi punya ruang tambahan tanpa renovasi besar. Proses pengerjaan cepat dan hasilnya sesuai ekspektasi.",
+              },
+            ].map((testi, index) => (
+              <div
+                key={index}
+                className="snap-center shrink-0 w-[300px] bg-[#F8FAFC] p-6 rounded-xl shadow-md hover:shadow-lg transition"
+              >
+                <p className="text-gray-700 italic mb-4">“{testi.message}”</p>
+                <div className="font-semibold text-[#0D2C40]">{testi.name}</div>
+                <div className="text-sm text-gray-500">{testi.job}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <a
+              href="https://maps.app.goo.gl/e7NRR7tuBcXQuXn4A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#0D2C40] hover:bg-[#153955] text-white px-6 py-3 rounded-lg text-base font-semibold transition"
+            >
+              Lihat Lokasi Nemu Workshop di Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+    
+        {/* CTA Akhir – Mezanin Besi */}
+        <section className="bg-white text-gray-900 py-20 px-4 md:px-8 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              Siap Menambah Ruang dengan Mezanin Besi yang Kokoh?
             </h2>
 
-            <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth pb-4">
-              {[
-                {
-                  name: "Dimas Pratama",
-                  job: "Manager Operasional Hotel, Cikarang",
-                  message:
-                    "Pintu floor hinge dari Zen Workshop terlihat premium dan sangat cocok untuk lobby hotel kami. Tahan lama & elegan.",
-                },
-                {
-                  name: "Lina Marlina",
-                  job: "Owner Showroom Mobil, Jakarta Timur",
-                  message:
-                    "Pintu kaca frameless yang dipasang bikin showroom kami tampak luas dan mewah. Pemasangan cepat & presisi.",
-                },
-                {
-                  name: "Rahmat Gunawan",
-                  job: "Kontraktor Gedung Perkantoran, BSD",
-                  message:
-                    "Zen Workshop selalu jadi pilihan utama untuk proyek kami. Floor hinge kuat, rapi, dan tahan lama.",
-                },
-                {
-                  name: "Veronika Ayu",
-                  job: "Interior Designer, Jakarta Pusat",
-                  message:
-                    "Klien saya puas dengan pintu floor hinge dari Zen. Finishingnya bagus dan cocok untuk ruang komersial modern.",
-                },
-                {
-                  name: "Rifky Ahmad",
-                  job: "Pemilik Toko Retail, Bekasi",
-                  message:
-                    "Pintu swing dua arah dengan sistem floor hinge dari Zen sangat praktis. Tampilannya juga estetik.",
-                },
-                {
-                  name: "Yohana Widya",
-                  job: "Pemilik Ruko 3 Lantai, Bogor",
-                  message:
-                    "Senang bisa kerja sama dengan Zen Workshop. Proses survey dan pemasangan sangat profesional.",
-                },
-              ].map((testi, index) => (
-                <div
-                  key={index}
-                  className="snap-center shrink-0 w-[300px] bg-[#F8FAFC] p-6 rounded-xl shadow-md hover:shadow-lg transition"
-                >
-                  <p className="text-gray-700 italic mb-4">“{testi.message}”</p>
-                  <div className="font-semibold text-[#0D2C40]">{testi.name}</div>
-                  <div className="text-sm text-gray-500">{testi.job}</div>
-                </div>
-              ))}
-            </div>
+            <p className="text-lg md:text-xl mb-8 text-gray-700">
+              Maksimalkan area rumah, gudang, cafe, workshop, atau bangunan komersial Anda dengan 
+              <strong> konstruksi mezanin besi custom </strong>
+              dari <strong>Zen Workshop</strong>. Dikerjakan oleh tim profesional dengan desain presisi, struktur kuat, dan tampilan modern sesuai kebutuhan ruang Anda.
+            </p>
 
-            <div className="mt-12 text-center">
-              <a
-                href="https://maps.app.goo.gl/e7NRR7tuBcXQuXn4A"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#0D2C40] hover:bg-[#153955] text-white px-6 py-3 rounded-lg text-base font-semibold transition"
-              >
-                Lihat Lokasi Zen Workshop di Google Maps
-              </a>
-            </div>
+            <a
+              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20mezanin%20besi%20dari%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+              onClick={() => {
+                fbq('track', 'Contact');
+                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20mezanin%20besi%20dari%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-green-600 text-white px-6 py-3 rounded-lg text-base font-semibold transition"
+            >
+              <FaWhatsapp size={20} /> Konsultasi Gratis via WhatsApp
+            </a>
           </div>
         </section>
 
-      {/* FAQ - Pintu Floor Hinge */}
-<section className="bg-[#0D2C40] py-20 px-4 md:px-8 text-white">
-  <div className="max-w-6xl mx-auto text-center">
-    <h2 className="text-4xl md:text-5xl font-bold mb-10">FAQ Pintu Floor Hinge Aluminium</h2>
-
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-      {/* Gambar */}
-      <div>
-        <img
-          src= {proyek11} // Ganti dengan URL gambar yang sesuai
-          alt="Pintu Floor Hinge Aluminium"
-          className="w-full h-auto rounded-lg shadow-lg"
-        />
-      </div>
-
-      {/* Konten Teks FAQ */}
-      <div className="space-y-6 text-left">
-        {[ 
-          {
-            question: "Apa itu pintu floor hinge dan keunggulannya?",
-            answer: "Pintu floor hinge adalah pintu kaca tanpa kusen yang dapat membuka dua arah, sangat cocok untuk area komersial seperti mall, hotel, atau kantor. Tampilannya elegan, kuat, dan tidak memerlukan engsel samping.",
-          },
-          {
-            question: "Apakah pintu floor hinge bisa dipasang untuk pintu utama toko atau ruko?",
-            answer: "Bisa. Banyak klien kami menggunakan pintu ini untuk ruko dan showroom karena desainnya modern, ringan dibuka-tutup, dan memperkuat tampilan profesional bangunan.",
-          },
-          {
-            question: "Berapa lama waktu pemasangan pintu floor hinge?",
-            answer: "Proses pengerjaan pintu floor hinge biasanya memakan waktu 7–10 hari kerja untuk produksi dan 1 hari untuk instalasi oleh tim teknisi berpengalaman.",
-          },
-          {
-            question: "Apakah bisa pesan ukuran dan jenis kaca custom?",
-            answer: "Tentu. Zen Workshop melayani custom kaca tempered sesuai ukuran, ketebalan, dan desain yang diinginkan, baik clear maupun kaca buram (sandblast).",
-          },
-        ].map((item, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            whileHover={{ scale: 1.02 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.4, delay: index * 0.1 }}
-            className="bg-white/10 border border-white/20 rounded-xl p-5 shadow-sm backdrop-blur-sm transition"
-          >
-            <h3 className="text-lg font-semibold mb-2 text-white">{item.question}</h3>
-            <p className="text-white/90 leading-relaxed">{item.answer}</p>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
-
-
-     {/* CTA Akhir – Pintu Floor Hinge */}
-<section className="bg-white text-gray-900 py-20 px-4 md:px-8 text-center">
-  <div className="max-w-3xl mx-auto">
-    <h2 className="text-4xl md:text-5xl font-bold mb-6">
-      Siap Pasang Pintu Floor Hinge yang Estetik dan Profesional?
-    </h2>
-    <p className="text-lg md:text-xl mb-8 text-gray-700">
-      Wujudkan tampilan bangunan modern dengan <strong>pintu floor hinge kaca aluminium</strong>. Tim <strong>Zen Workshop</strong> siap bantu instalasi profesional untuk gedung, ruko, kantor, showroom, dan bangunan komersial lainnya di area Jabodetabek.
-    </p>
-    <a
-      href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
-      onClick={() => {
-        fbq('track', 'Contact');
-        return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
-      }}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-green-600 text-white px-6 py-3 rounded-lg text-base font-semibold transition"
-    >
-      <FaWhatsapp size={20} /> Konsultasi Gratis via WhatsApp
-    </a>
-
-  </div>
-</section>
     </>
   );
 }

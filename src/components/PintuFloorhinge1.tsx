@@ -6,18 +6,18 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { CheckCircle } from "lucide-react";
 
-import proyek1 from "../assets/fl/fl1.jpg";
-import proyek2 from "../assets/fl/fl2.jpg";
-import proyek3 from "../assets/fl/fl3.jpg";
-import proyek4 from "../assets/fl/fl4.jpg";
-import proyek5 from "../assets/fl/fl5.jpg";
-import proyek6 from "../assets/fl/fl6.jpg";
-import proyek7 from "../assets/fl/fl7.jpg";
-import proyek8 from "../assets/fl/fl8.jpg";
-import proyek9 from "../assets/fl/fl9.jpg";
-import proyek10 from "../assets/fl/fl10.jpg";
-import proyek11 from "../assets/fl/fl11.jpg";
-import proyek12 from "../assets/fl/fl12.jpg";
+import proyek1 from "../assets/mezanin2.jpeg";
+import proyek2 from "../assets/mezanin3.jpeg";
+import proyek3 from "../assets/mezanin4.jpg";
+import proyek4 from "../assets/mezanin5.jpeg";
+import proyek5 from "../assets/mezanin6.jpeg";
+import proyek6 from "../assets/mezanin7.jpeg";
+import proyek7 from "../assets/mezanin8.jpg";
+import proyek8 from "../assets/mezanin8.webp";
+import proyek9 from "../assets/mezanin9.jpg";
+import proyek10 from "../assets/mezanin10.jpg";
+import proyek11 from "../assets/mezanin11.jpg";
+import proyek12 from "../assets/mezanin12.jpg";
 import pesananimg from "../assets/sectionn.png";
 import solutiomimg from "../assets/partisi.jpg";
 
@@ -60,7 +60,8 @@ export default function PintuSlidingPage() {
   return (
     <>
       
-     {/* HERO SECTION: Pintu Floor Hinge Aluminium */}
+     
+        {/* HERO SECTION: Jasa Pembuatan Mezanine */}
         <motion.section
           className="bg-gradient-to-br from-[#0D2C40] to-[#1A4365] text-white py-28 px-6 md:px-12 flex items-center justify-center min-h-screen"
           initial="hidden"
@@ -72,17 +73,21 @@ export default function PintuSlidingPage() {
           }}
         >
           <div className="max-w-4xl text-center">
+
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Jasa Pemasangan Pintu Floor Hinge Aluminium Profesional
+              Jasa Pembuatan Mezanine Besi Profesional & Kokoh
             </h1>
+
             <p className="text-lg md:text-xl text-white/90 mb-8">
-              Cocok untuk gedung, kantor, dan bangunan komersial. Desain elegan, struktur kuat, dan hasil pemasangan presisi oleh tim berpengalaman dari Zen Workshop.
+              Solusi tambahan ruang tanpa renovasi besar untuk rumah, gudang, toko, cafe, hingga bangunan komersial. 
+              Mezanine custom dengan konstruksi kuat, desain modern, dan pengerjaan rapi dari Nemu Workshop.
             </p>
+
             <a
-              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20mezanine%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
               onClick={() => {
                 fbq('track', 'Contact');
-                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
+                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20mezanine%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
               }}
               target="_blank"
               rel="noopener noreferrer"
@@ -95,7 +100,10 @@ export default function PintuSlidingPage() {
         </motion.section>
 
 
-    {/* KENAPA PILIH PINTU FLOOR HINGE */}
+
+
+
+      {/* KENAPA PILIH MEZANINE BESI */}
       <section className="bg-white py-24 px-4 md:px-8 text-gray-900">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           
@@ -110,7 +118,7 @@ export default function PintuSlidingPage() {
             <div className="w-full h-full max-h-[600px] rounded-2xl overflow-hidden shadow-lg flex-1">
               <img
                 src={proyek11}
-                alt="Contoh pemasangan pintu kaca floor hinge"
+                alt="Contoh pemasangan mezanine besi"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -125,17 +133,21 @@ export default function PintuSlidingPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Kenapa Memilih Pintu Floor Hinge Aluminium?
+              Kenapa Memilih Mezanine Besi?
             </h2>
+
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-              Pintu dengan sistem floor hinge banyak digunakan di gedung komersial dan rumah modern karena tampilannya yang bersih tanpa kusen (frameless), kuat menopang beban berat, dan bisa membuka ke dua arah.
+              Mezanine besi menjadi solusi ideal untuk menambah area tanpa perlu renovasi besar. 
+              Cocok digunakan untuk gudang, toko, cafe, workshop, hingga rumah tinggal karena 
+              konstruksinya kuat, hemat ruang, dan tampil modern.
             </p>
+
             <ul className="space-y-5 text-lg">
               {[
-                "Desain elegan tanpa kusen (frameless)",
-                "Cocok untuk pintu kaca tebal dan lebar",
-                "Ideal untuk pintu swing dua arah",
-                "Minim perawatan & tahan penggunaan intensif"
+                "Menambah ruang tanpa memperluas bangunan",
+                "Konstruksi kokoh dan tahan beban berat",
+                "Cocok untuk gudang, toko, cafe, dan rumah",
+                "Desain modern dan bisa custom sesuai kebutuhan"
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <CheckCircle size={24} className="text-blue-500 mt-1" />
@@ -148,68 +160,81 @@ export default function PintuSlidingPage() {
       </section>
 
 
+        {/* JENIS & APLIKASI MEZANINE BESI */}
+        <section className="bg-[#0D2C40] text-white py-24 px-4 md:px-8">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
+              Jenis & Aplikasi Mezanine Besi
+            </h2>
 
+            <p className="text-lg md:text-xl text-center text-white/80 max-w-3xl mx-auto mb-14">
+              Mezanine besi menjadi solusi populer untuk menambah area tanpa perlu renovasi besar. 
+              Cocok digunakan untuk rumah, gudang, kantor, hingga area komersial karena kuat, fleksibel, 
+              dan mampu memaksimalkan ruang kosong secara efisien.
+            </p>
 
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                {
+                  title: "Gudang & Warehouse",
+                  desc: "Menambah area penyimpanan tanpa perlu memperluas bangunan utama.",
+                  icon: "🏭",
+                },
+                {
+                  title: "Ruko & Toko",
+                  desc: "Dimanfaatkan sebagai area display produk, stok barang, atau ruang kerja tambahan.",
+                  icon: "🏬",
+                },
+                {
+                  title: "Kantor",
+                  desc: "Membuat area kerja tambahan dengan desain industrial modern yang efisien.",
+                  icon: "💼",
+                },
+                {
+                  title: "Cafe & Restoran",
+                  desc: "Memberikan seating area tambahan dengan tampilan estetik dan lebih menarik.",
+                  icon: "☕",
+                },
+                {
+                  title: "Rumah Tinggal",
+                  desc: "Cocok untuk kamar tambahan, ruang santai, atau area kerja minimalis.",
+                  icon: "🏠",
+                },
+                {
+                  title: "Workshop & Pabrik",
+                  desc: "Membantu memaksimalkan area produksi dan penyimpanan alat kerja.",
+                  icon: "🛠️",
+                }
+              ].map((item, index) => (
+                <motion.div
+                  key={index}
+                  whileHover={{ scale: 1.05, y: -6 }}
+                  transition={{ type: "spring", stiffness: 250, damping: 18 }}
+                  className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 text-white cursor-pointer"
+                >
+                  <div className="text-4xl mb-4">{item.icon}</div>
 
-                      {/* JENIS & APLIKASI */}
-      <section className="bg-[#0D2C40] text-white py-24 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">Jenis & Aplikasi Pintu Floor Hinge</h2>
-          <p className="text-lg md:text-xl text-center text-white/80 max-w-3xl mx-auto mb-14">
-            Pintu floor hinge aluminium banyak digunakan di berbagai jenis bangunan komersial berkat tampilannya yang modern dan kekuatannya menopang beban berat. Berikut beberapa aplikasi pintu floor hinge yang umum dan populer:
-          </p>
+                  <h3 className="text-xl font-semibold mb-2">
+                    {item.title}
+                  </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Perkantoran",
-                desc: "Meningkatkan kesan profesional dan modern di area lobby atau ruang meeting.",
-                icon: "🏢",
-              },
-              {
-                title: "Ruko",
-                desc: "Cocok untuk pintu depan toko yang elegan dan tahan lama.",
-                icon: "🏬",
-              },
-              {
-                title: "Showroom",
-                desc: "Menampilkan produk dengan akses terbuka yang estetik dan mudah dilalui.",
-                icon: "🚘",
-              },
-              {
-                title: "Mall",
-                desc: "Memberi akses dua arah dengan tampilan frameless yang modern.",
-                icon: "🛍️",
-              },
-              {
-                title: "Hotel",
-                desc: "Digunakan di pintu lobby atau akses utama dengan desain mewah dan kokoh.",
-                icon: "🏨",
-              }
-            ].map((item, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.05, y: -6 }}
-                transition={{ type: "spring", stiffness: 250, damping: 18 }}
-                className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 text-white cursor-pointer"
-              >
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-white/80 leading-relaxed">{item.desc}</p>
-              </motion.div>
-            ))}
+                  <p className="text-white/80 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       
       {/* Galeri */}
         <motion.section className="py-16 px-4 md:px-8 max-w-6xl mx-auto" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
           <h2 className="text-3xl md:text-4xl font-bold text-center">
-            Contoh Proyek Pemasangan Pintu Floor Hinge Zen Workshop
+            Contoh Proyek Pembuatan Mezanin Besi Nemu Workshop 
           </h2>
           <p className="text-lg text-center text-gray-600 max-w-2xl mx-auto mt-4 mb-12">
-            Lihat dokumentasi pemasangan pintu kaca floor hinge dari Zen Workshop di berbagai bangunan seperti gedung perkantoran, hotel, ruko, dan showroom. Semua proses dikerjakan oleh tim profesional dengan hasil rapi dan presisi.
+            Lihat dokumentasi pemasangan pintu kaca floor hinge dari Nemu Workshop di berbagai bangunan seperti gedung perkantoran, hotel, ruko, dan showroom. Semua proses dikerjakan oleh tim profesional dengan hasil rapi dan presisi.
           </p>
           <div className="columns-2 md:columns-3 gap-4 space-y-4 mb-16">
             {galleryImages.map((src, index) => (

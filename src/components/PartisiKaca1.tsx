@@ -342,11 +342,11 @@ export default function PintuSlidingPage() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Kenapa Pilih Zen Workshop?
+            Kenapa Pilih Nemu Workshop?
           </motion.h2>
 
           <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-12">
-            Kami hadir sebagai partner tepercaya untuk pembuatan partisi kaca aluminium dengan hasil rapi, cepat, dan sesuai kebutuhan ruangan Anda.
+            Kami hadir sebagai partner tepercaya untuk pembuatan Railing. Tangga dan Balkon dengan hasil rapi, cepat, dan sesuai kebutuhan ruangan Anda.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 text-left">
@@ -361,7 +361,7 @@ export default function PintuSlidingPage() {
               },
               {
                 title: "🏢 Proyek Kantor, Toko, dan Hunian",
-                desc: "Zen Workshop telah menyelesaikan ratusan proyek mulai dari rumah tinggal hingga ruang komersial.",
+                desc: "Nemu Workshop telah menyelesaikan ratusan proyek mulai dari rumah tinggal hingga ruang komersial.",
               },
               {
                 title: "⭐ Lebih dari 100+ Proyek Partisi Selesai",
@@ -389,7 +389,7 @@ export default function PintuSlidingPage() {
           <section className="bg-white text-gray-900 py-20 px-4 md:px-8">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="text-4xl font-bold mb-8">
-                Proses Pemesanan Partisi Kaca Aluminium
+                Proses Pemesanan Railing Tangga dan Balkon
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-left">
                 
@@ -401,8 +401,7 @@ export default function PintuSlidingPage() {
               className="w-[220px] sm:w-[280px] md:w-[500px] h-auto mx-auto md:mx-0 rounded-lg shadow-lg mb-6"
             />                                        
             <p className="text-gray-700 leading-relaxed mb-4 max-w-md mx-auto md:mx-0">
-              Kami memberikan <span className="font-semibold text-gray-900">layanan konsultasi, survey, hingga pemasangan kitchen set aluminium</span> dengan proses yang profesional dan transparan. Cocok untuk dapur rumah tinggal, apartemen, maupun bisnis komersial.
-            </p>
+              Kami memberikan <span className="font-semibold text-gray-900">layanan konsultasi, survey, hingga pemasangan Railing tangga dan balkon</span> dengan proses yang profesional dan transparan.</p>
             <a
               href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
               onClick={() => {
@@ -425,7 +424,7 @@ export default function PintuSlidingPage() {
                     {
                       id: "01",
                       title: "Hubungi Kami",
-                      desc: "Diskusikan kebutuhan kitchen set aluminium Anda melalui WhatsApp atau telepon.",
+                      desc: "Diskusikan kebutuhan Railing tangga dan balkon Anda melalui WhatsApp atau telepon.",
                     },
                     {
                       id: "02",
@@ -445,7 +444,7 @@ export default function PintuSlidingPage() {
                     {
                       id: "05",
                       title: "Produksi & Pemasangan",
-                      desc: "Kitchen set aluminium diproduksi dan dipasang oleh tim berpengalaman dari Zen Workshop.",
+                      desc: "Railing tangga dan balkon diproduksi dan dipasang oleh tim berpengalaman dari Nemu Workshop.",
                     },
                   ].map((step) => (
                     <motion.div
@@ -467,174 +466,188 @@ export default function PintuSlidingPage() {
           </section>
 
 
-      {/* Testimoni Klien - Partisi Kaca Aluminium */}
-    <section className="bg-white py-20 px-4 md:px-8 text-gray-900">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-          Testimoni Klien Partisi Kaca Aluminium
-        </h2>
 
-        <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth pb-4">
-          {[
-            {
-              name: "Andi Maulana",
-              job: "Pemilik Rumah Modern, Tangerang",
-              message:
-                "Partisi kaca dari Zen bikin ruang tamu dan ruang kerja tetap terang tanpa terasa sempit. Pemasangan cepat dan rapi!",
-            },
-            {
-              name: "Maria Lestari",
-              job: "Owner Cafe Minimalis, Jakarta Barat",
-              message:
-                "Tampilan depan cafe jadi lebih menarik. Partisi kacanya estetik dan tetap memberi batas ruangan tanpa bikin sumpek.",
-            },
-            {
-              name: "Raka Pratama",
-              job: "Interior Designer, Bandung",
-              message:
-                "Saya pakai Zen Workshop untuk proyek kantor klien. Finishing-nya rapi, hasilnya memuaskan. Klien juga happy!",
-            },
-            {
-              name: "Sylvia Yuliani",
-              job: "Karyawan Swasta, Jakarta Selatan",
-              message:
-                "Ruang kerja di rumah jadi lebih terorganisir tanpa kehilangan cahaya. Pilihan yang sangat tepat.",
-            },
-            {
-              name: "Bagas Ramdhan",
-              job: "Developer Properti, Bekasi",
-              message:
-                "Partisi kaca aluminium dari Zen bikin unit show house terlihat mewah. Materialnya solid dan presisi banget.",
-            },
-            {
-              name: "Fauzia Rahmat",
-              job: "Arsitek Freelance, Jogja",
-              message:
-                "Saya rekomendasikan ke semua klien. Zen Workshop selalu bisa custom sesuai desain dan layout ruangan.",
-            },
-          ].map((testi, index) => (
-            <div
-              key={index}
-              className="snap-center shrink-0 w-[300px] bg-white text-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition"
-            >
-              <p className="text-yellow-500 mb-2">★★★★★</p>
-              <p className="italic mb-4">“{testi.message}”</p>
-              <div className="font-semibold text-[#0D2C40]">{testi.name}</div>
-              <div className="text-sm text-gray-500">{testi.job}</div>
-            </div>
-          ))}
-        </div>
+        {/* Testimoni Klien - Railing Tangga & Balkon */}
+        <section className="bg-white py-20 px-4 md:px-8 text-gray-900">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+              Testimoni Klien Railing Tangga & Balkon
+            </h2>
 
-        <div className="mt-12 text-center">
-          <a
-            href="https://maps.app.goo.gl/e7NRR7tuBcXQuXn4A"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#0D2C40] hover:bg-[#133C56] text-white px-6 py-3 rounded-lg text-base font-semibold transition"
-          >
-            Lihat Lokasi Zen Workshop di Google Maps
-          </a>
-        </div>
-      </div>
-    </section>
-
-      {/* FAQ Partisi Kaca Aluminium */}
-          <section className="bg-[#0D2C40] text-white py-16 px-4 md:px-6">
-            <div className="max-w-6xl mx-auto text-center">
-
-              {/* Judul */}
-              <h2 className="text-4xl font-bold mb-6">
-                FAQ Partisi Kaca Aluminium
-              </h2>
-
-              {/* Grid: Gambar & Konten */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:items-stretch">
-
-                {/* Gambar - Kanan (Desktop) */}
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.95 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      transition={{ duration: 0.6 }}
-                      viewport={{ once: true }}
-                      className="w-full h-full rounded-2xl overflow-hidden shadow-lg md:order-last"
-                    >
-                      <img
-                        src={proyek19}
-                        alt="Contoh partisi kaca aluminium"
-                        className="w-full h-[220px] md:h-[400px] object-cover"
-                      />
-                    </motion.div>
-
-                {/* Konten Teks */}
-                <div className="flex flex-col justify-center space-y-6 text-center md:text-left">
-
-                  {[
-                    {
-                      question: "Apakah partisi kaca aluminium cukup kuat dan aman?",
-                      answer:
-                        "Sangat aman. Menggunakan kaca tempered dan rangka aluminium yang kuat, sehingga tahan benturan dan tidak mudah rusak.",
-                    },
-                    {
-                      question: "Apakah bisa custom ukuran dan bentuk sesuai ruangan?",
-                      answer:
-                        "Tentu bisa. Kami melayani pembuatan partisi kaca custom sesuai layout dan kebutuhan ruangan Anda.",
-                    },
-                    {
-                      question: "Cocok nggak untuk ruang kantor atau cafe?",
-                      answer:
-                        "Sangat cocok! Banyak klien kami dari sektor komersial seperti kantor, cafe, dan ruang meeting.",
-                    },
-                    {
-                      question: "Berapa lama proses produksi dan pemasangannya?",
-                      answer:
-                        "Proses pengerjaan rata-rata 5–10 hari kerja tergantung desain dan lokasi pemasangan.",
-                    },
-                  ].map((item, index) => (
-                    <div
-                      key={index}
-                      className="bg-[#0F3A55] border border-[#1C4563] rounded-2xl overflow-hidden transition"
-                    >
-                      <button
-                        onClick={() => setFaqIndex(index === faqIndex ? null : index)}
-                        className="w-full flex items-center justify-between p-5 text-lg font-semibold hover:bg-[#153955]"
-                      >
-                        <span className="text-left">{item.question}</span>
-                        {faqIndex === index ? <FiMinus /> : <FiPlus />}
-                      </button>
-                      <AnimatePresence>
-                        {faqIndex === index && (
-                          <motion.div
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: "auto" }}
-                            exit={{ opacity: 0, height: 0 }}
-                            className="p-5 text-gray-300 bg-[#0F3A55] text-left"
-                          >
-                            <p>{item.answer}</p>
-                          </motion.div>
-                        )}
-                      </AnimatePresence>
-                    </div>
-                  ))}
+            <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth pb-4">
+              {[
+                {
+                  name: "Rizky Pradana",
+                  job: "Pemilik Rumah Minimalis, Tangerang",
+                  message:
+                    "Railing tangga dari NEMU Workshop bikin rumah jadi jauh lebih modern. Finishing rapi dan kokoh banget.",
+                },
+                {
+                  name: "Maya Kartika",
+                  job: "Owner Cafe Rooftop, Jakarta Selatan",
+                  message:
+                    "Awalnya bingung cari railing balkon yang estetik tapi tetap aman. Hasil dari NEMU sesuai ekspektasi banget.",
+                },
+                {
+                  name: "Fahri Ramadhan",
+                  job: "Arsitek, Bekasi",
+                  message:
+                    "Detail pengerjaan railingnya presisi dan desainnya bisa custom sesuai konsep rumah klien. Recommended!",
+                },
+                {
+                  name: "Dina Amelia",
+                  job: "Pemilik Rumah 2 Lantai, Depok",
+                  message:
+                    "Tangga rumah jadi terlihat lebih mewah setelah ganti railing baru. Materialnya juga terasa solid dan premium.",
+                },
+                {
+                  name: "Kevin Jonathan",
+                  job: "Developer Properti, Jakarta Barat",
+                  message:
+                    "Sudah beberapa kali kerja sama untuk proyek railing balkon dan hasilnya selalu memuaskan. Timnya profesional.",
+                },
+                {
+                  name: "Salsa Maharani",
+                  job: "Interior Designer, Bandung",
+                  message:
+                    "Suka banget karena model railingnya bisa custom dan menyesuaikan desain interior rumah modern.",
+                },
+              ].map((testi, index) => (
+                <div
+                  key={index}
+                  className="snap-center shrink-0 w-[300px] bg-white text-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition"
+                >
+                  <p className="text-yellow-500 mb-2">★★★★★</p>
+                  <p className="italic mb-4">“{testi.message}”</p>
+                  <div className="font-semibold text-[#0D2C40]">{testi.name}</div>
+                  <div className="text-sm text-gray-500">{testi.job}</div>
                 </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <a
+                href="https://maps.app.goo.gl/e7NRR7tuBcXQuXn4A"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#0D2C40] hover:bg-[#133C56] text-white px-6 py-3 rounded-lg text-base font-semibold transition"
+              >
+                Lihat Lokasi NEMU Workshop di Google Maps
+              </a>
+            </div>
+          </div>
+        </section>
+
+
+      {/* FAQ Railing Tangga & Balkon */}
+        <section className="bg-[#0D2C40] text-white py-16 px-4 md:px-6">
+          <div className="max-w-6xl mx-auto text-center">
+
+            {/* Judul */}
+            <h2 className="text-4xl font-bold mb-6">
+              FAQ Railing Tangga & Balkon
+            </h2>
+
+            {/* Grid: Gambar & Konten */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:items-stretch">
+
+              {/* Gambar - Kanan (Desktop) */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+                viewport={{ once: true }}
+                className="w-full h-full rounded-2xl overflow-hidden shadow-lg md:order-last"
+              >
+                <img
+                  src={proyek19}
+                  alt="Contoh railing tangga dan balkon"
+                  className="w-full h-[220px] md:h-[400px] object-cover"
+                />
+              </motion.div>
+
+              {/* Konten Teks */}
+              <div className="flex flex-col justify-center space-y-6 text-center md:text-left">
+
+                {[
+                  {
+                    question: "Apakah railing besi aman untuk tangga dan balkon?",
+                    answer:
+                      "Tentu aman. Kami menggunakan material besi berkualitas dengan konstruksi yang kokoh sehingga lebih kuat dan tahan lama untuk penggunaan harian.",
+                  },
+                  {
+                    question: "Apakah desain railing bisa custom sesuai rumah?",
+                    answer:
+                      "Bisa banget. Mulai dari model minimalis, klasik, industrial, hingga modern bisa disesuaikan dengan konsep rumah Anda.",
+                  },
+                  {
+                    question: "Apakah railing mudah berkarat?",
+                    answer:
+                      "Tidak. Railing kami menggunakan finishing berkualitas seperti cat powder coating atau cat khusus besi agar lebih tahan terhadap cuaca dan karat.",
+                  },
+                  {
+                    question: "Berapa lama proses pengerjaan railing?",
+                    answer:
+                      "Waktu pengerjaan rata-rata sekitar 5–14 hari kerja tergantung ukuran, desain, dan tingkat kerumitan proyek.",
+                  },
+                  {
+                    question: "Apakah bisa survey dan konsultasi terlebih dahulu?",
+                    answer:
+                      "Tentu bisa. Tim NEMU Workshop siap membantu survey lokasi dan konsultasi gratis agar hasil railing sesuai kebutuhan dan desain rumah Anda.",
+                  },
+                ].map((item, index) => (
+                  <div
+                    key={index}
+                    className="bg-[#0F3A55] border border-[#1C4563] rounded-2xl overflow-hidden transition"
+                  >
+                    <button
+                      onClick={() => setFaqIndex(index === faqIndex ? null : index)}
+                      className="w-full flex items-center justify-between p-5 text-lg font-semibold hover:bg-[#153955]"
+                    >
+                      <span className="text-left">{item.question}</span>
+                      {faqIndex === index ? <FiMinus /> : <FiPlus />}
+                    </button>
+
+                    <AnimatePresence>
+                      {faqIndex === index && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: "auto" }}
+                          exit={{ opacity: 0, height: 0 }}
+                          className="p-5 text-gray-300 bg-[#0F3A55] text-left"
+                        >
+                          <p>{item.answer}</p>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                ))}
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-
-      {/* CTA Akhir – Partisi Kaca Aluminium */}
+          {/* CTA Akhir – Railing Tangga & Balkon */}
     <section className="bg-white text-gray-900 py-20 px-4 md:px-8 text-center">
       <div className="max-w-3xl mx-auto">
+
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Siap Ubah Ruangan Jadi Lebih Modern?
+          Siap Upgrade Tampilan Tangga & Balkon Rumah Anda?
         </h2>
+
         <p className="text-lg md:text-xl mb-8 text-gray-700">
-          Wujudkan tampilan ruang kantor atau rumah yang terang dan estetik dengan <strong>partisi kaca aluminium</strong> dari Zen Workshop. Estetik, fungsional, dan bisa custom sesuai kebutuhan layout.
+          Wujudkan tampilan rumah yang lebih modern, aman, dan elegan dengan 
+          <strong> railing tangga & balkon custom </strong> 
+          dari NEMU Workshop. Mulai dari desain minimalis, industrial, hingga modern luxury — semuanya bisa disesuaikan dengan konsep rumah Anda.
         </p>
+
         <a
-          href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+          href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20untuk%20konsultasi%20railing%20tangga%20dan%20balkon."
           onClick={() => {
             fbq('track', 'Contact');
-            return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
+            return gtag_report_conversion(
+              'https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20untuk%20konsultasi%20railing%20tangga%20dan%20balkon.'
+            );
           }}
           target="_blank"
           rel="noopener noreferrer"
@@ -642,7 +655,6 @@ export default function PintuSlidingPage() {
         >
           <FaWhatsapp size={18} /> Konsultasi Sekarang
         </a>
-
 
       </div>
     </section>

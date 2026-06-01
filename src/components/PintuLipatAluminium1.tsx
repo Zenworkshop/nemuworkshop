@@ -257,7 +257,7 @@ export default function PintuSlidingPage() {
               {/* Tahapan Pemesanan */}
         <section className="bg-[#0D2C40] text-white py-20 px-4 md:px-8">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-8">Proses Pemesanan Pintu Lipat Aluminium</h2>
+            <h2 className="text-4xl font-bold mb-8">Proses Pemesanan Baja ringan</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-left">
               
               {/* Gambar dan Paragraf */}

@@ -6,32 +6,32 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { CheckCircle } from "lucide-react";
 
-import proyek1 from "../assets/ksa/KSA1.jpg";
-import proyek2 from "../assets/ksa/KSA2.png";
-import proyek3 from "../assets/ksa/KSA3.png";
-import proyek4 from "../assets/ksa/KSA4.jpg";
-import proyek5 from "../assets/ksa/KSA5.png";
-import proyek6 from "../assets/ksa/KSA6.png";
-import proyek7 from "../assets/ksa/KSA7.jpg";
-import proyek8 from "../assets/ksa/KSA8.png";
-import proyek9 from "../assets/ksa/KSA9.png";
-import proyek10 from "../assets/ksa/KSA10.png";
-import proyek11 from "../assets/ksa/KSA11.png";
-import proyek12 from "../assets/ksa/KSA12.jpg";
-import proyek13 from "../assets/ksa/KSA13.png";
-import proyek14 from "../assets/ksa/KSA14.jpg";
-import proyek15 from "../assets/ksa/KSA15.png";
-import proyek16 from "../assets/ksa/KSA16.png";
-import proyek17 from "../assets/ksa/KSA17.png";
-import proyek18 from "../assets/ksa/KSA18.jpg";
-import proyek19 from "../assets/ksa/KSA19.png";
-import proyek20 from "../assets/ksa/KSA20.jpg";
-import proyek21 from "../assets/ksa/KSA21.png";
-import proyek22 from "../assets/ksa/KSA22.png";
-import proyek23 from "../assets/ksa/KSA23.png";
-import proyek24 from "../assets/ksa/KSA24.png";
-import proyek25 from "../assets/ksa/KSA25.jpg";
-import proyek26 from "../assets/ksa/KSA26.png";
+import proyek1 from "../assets/tangga3.jpeg";
+import proyek2 from "../assets/tangga4.jpeg";
+import proyek3 from "../assets/tangga5.jpeg";
+import proyek4 from "../assets/tangga6.jpeg";
+import proyek5 from "../assets/tangga7.jpeg";
+import proyek6 from "../assets/tangga9.jpeg";
+import proyek7 from "../assets/tangga10.jpeg";
+import proyek8 from "../assets/tangga13.jpg";
+import proyek9 from "../assets/tangga14.jpg";
+import proyek10 from "../assets/tangga.jpg";
+import proyek11 from "../assets/tangga15.webp";
+import proyek12 from "../assets/tangga16.webp";
+import proyek13 from "../assets/tangga17.webp";
+import proyek14 from "../assets/tangga18.webp";
+import proyek15 from "../assets/tangga19.webp";
+import proyek16 from "../assets/tangga20.jpg";
+import proyek17 from "../assets/tangga21.jpg";
+import proyek18 from "../assets/tangga22.png";
+import proyek19 from "../assets/tangga23.png";
+import proyek20 from "../assets/tangga24.png";
+import proyek21 from "../assets/tangga25.png";
+import proyek22 from "../assets/tangga26.png";
+import proyek23 from "../assets/tangga27.png";
+import proyek24 from "../assets/tangga28.jpg";
+import proyek25 from "../assets/tangga29.jpg";
+import proyek26 from "../assets/tangga30.jpg";
 import pesananimg from "../assets/sectionn.png";
 import solutiomimg from "../assets/partisi.jpg";
 
@@ -79,7 +79,7 @@ export default function PintuSlidingPage() {
   return (
     <>
       
-     {/* HERO SECTION: Kitchen Set Aluminium */}
+     {/* HERO SECTION: Jasa Pembuatan Tangga Besi */}
         <motion.section
           className="bg-gradient-to-br from-[#0D2C40] to-[#1A4365] text-white py-28 px-6 md:px-12 flex items-center justify-center min-h-screen"
           initial="hidden"
@@ -92,10 +92,10 @@ export default function PintuSlidingPage() {
         >
           <div className="max-w-4xl text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Kitchen Set Aluminium Anti Rayap & Tahan Lama – Solusi Dapur Modern
+              Jasa Pembuatan Tangga Besi Custom yang Kuat, Aman & Estetik
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-8">
-              Bosan dengan kitchen set kayu yang cepat rusak, lembab, atau kena rayap? <strong>Zen Workshop</strong> hadir dengan layanan pembuatan <strong>kitchen set aluminium custom</strong> yang tahan air, mudah dibersihkan, dan tampil elegan untuk segala tipe dapur.
+              Butuh tangga untuk rumah, mezzanine, ruko, gudang, atau bangunan komersial? <strong>Nemu Workshop</strong> melayani pembuatan <strong>tangga besi custom</strong> dengan desain modern, konstruksi kokoh, dan pengerjaan profesional sesuai kebutuhan bangunan Anda.
             </p>
             <a
               href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
@@ -107,71 +107,75 @@ export default function PintuSlidingPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-green-500 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg transition"
             >
-              <FaWhatsapp size={24} /> Konsultasi Kitchen Set Sekarang
+              <FaWhatsapp size={24} /> Konsultasi Tangga Besi Sekarang
             </a>
-
           </div>
         </motion.section>
 
 
 
-    {/* SECTION: Keunggulan Kitchen Set Aluminium */}
-      <section className="bg-white py-24 px-4 md:px-8 text-gray-900">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+    {/* SECTION: Keunggulan Tangga Besi Custom */}
 
-          {/* Kiri - Gambar */}
-          <motion.div
-            className="flex"
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <div className="w-full h-full max-h-[600px] rounded-2xl overflow-hidden shadow-lg flex-1">
-              <img
-                src={proyek1}
-                alt="Contoh kitchen set aluminium custom"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </motion.div>
+        <section className="bg-white py-24 px-4 md:px-8 text-gray-900">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
 
-          {/* Kanan - Teks */}
-          <motion.div
-            className="flex flex-col justify-center"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              Kenapa Harus Pilih Kitchen Set Aluminium?
-            </h2>
+        
+        {/* Kiri - Gambar */}
+        <motion.div
+          className="flex"
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <div className="w-full h-full max-h-[600px] rounded-2xl overflow-hidden shadow-lg flex-1">
+            <img
+              src={proyek1}
+              alt="Contoh tangga besi custom"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </motion.div>
 
-            <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-              Kitchen set aluminium adalah solusi cerdas untuk dapur masa kini. Dengan material yang <strong>tahan rayap, tidak berkarat, dan anti lembab</strong>, kitchen set ini cocok untuk dapur aktif dan hunian tropis di Indonesia.
-            </p>
+        {/* Kanan - Teks */}
+        <motion.div
+          className="flex flex-col justify-center"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Kenapa Harus Pilih Tangga Besi Custom?
+          </h2>
 
-            <ul className="space-y-5 text-lg">
-              {[
-                "Tahan lama dan tidak lapuk – cocok untuk jangka panjang",
-                "Anti rayap & tahan lembab – ideal untuk iklim tropis",
-                "Tampilan modern dengan banyak pilihan warna dan motif",
-                "Mudah dibersihkan, tidak menyerap noda dan bau",
-                "Material ramah lingkungan & tidak memerlukan cat ulang",
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <CheckCircle size={24} className="text-blue-500 mt-1" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-        </div>
-      </section>
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+            Tangga besi menjadi pilihan favorit untuk rumah modern, mezzanine, ruko, hingga bangunan komersial karena memiliki <strong>konstruksi yang kuat, desain fleksibel, dan umur pakai yang panjang</strong>. Selain kokoh, tangga besi juga dapat dibuat sesuai konsep bangunan yang Anda inginkan.
+          </p>
+
+          <ul className="space-y-5 text-lg">
+            {[
+              "Konstruksi kuat dan aman untuk penggunaan jangka panjang",
+              "Bisa custom model minimalis, industrial, spiral, hingga mezzanine",
+              "Tampilan modern yang meningkatkan nilai estetika bangunan",
+              "Cocok untuk rumah, ruko, gudang, cafe, dan kantor",
+              "Mudah dikombinasikan dengan kayu, kaca, atau railing besi",
+            ].map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <CheckCircle size={24} className="text-blue-500 mt-1" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </motion.div>
+        
+
+          </div>
+        </section>
 
 
-      {/* SECTION: Desain & Finishing Kitchen Set - Versi Background Biru Tua */}
+      {/* SECTION: Jenis Tangga Besi Custom */}
+
         <section className="bg-gradient-to-br from-[#0D2C40] to-[#1A4365] py-24 px-4 md:px-8 text-white">
           <div className="max-w-6xl mx-auto">
             <motion.div
@@ -182,57 +186,61 @@ export default function PintuSlidingPage() {
               className="text-center mb-12"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Pilihan Desain & Finishing Kitchen Set Aluminium
+                Pilihan Model Tangga Besi yang Bisa Dikustom
               </h2>
               <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-                Tersedia berbagai desain kitchen set aluminium modern yang bisa disesuaikan dengan kebutuhan dan gaya dapur Anda. Mulai dari warna netral hingga motif kayu yang alami, semuanya bisa dikustom sesuai selera.
+                Kami melayani pembuatan berbagai jenis tangga besi sesuai kebutuhan bangunan. Mulai dari rumah tinggal, mezzanine, ruko, gudang, hingga area komersial dengan desain yang bisa disesuaikan dengan konsep bangunan Anda.
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                {
-                  title: "Warna Putih Minimalis",
-                  desc: "Memberi kesan bersih dan luas, cocok untuk dapur kecil atau desain Scandinavian.",
-                  image: proyek20,
-                },
-                {
-                  title: "Motif Kayu Elegan",
-                  desc: "Alternatif estetika kayu tanpa takut rayap, tampil natural dan hangat.",
-                  image: proyek5,
-                },
-                {
-                  title: "Hitam Doff Modern",
-                  desc: "Tampilan bold dan premium, ideal untuk dapur industrial dan kontemporer.",
-                  image: proyek17,
-                },
-              ].map((item, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 + index * 0.2 }}
-                  viewport={{ once: true }}
-                  className="bg-white text-gray-900 rounded-2xl shadow-md overflow-hidden"
-                >
-                  <img src={item.image} alt={item.title} className="w-full h-60 object-cover" />
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                    <p className="text-gray-700">{item.desc}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+        
+        <div className="grid md:grid-cols-3 gap-8">
+          {[
+            {
+              title: "Tangga Besi Minimalis",
+              desc: "Desain simpel dan modern yang cocok untuk rumah minimalis maupun bangunan kontemporer.",
+              image: proyek20,
+            },
+            {
+              title: "Tangga Mezzanine",
+              desc: "Solusi ideal untuk akses ke lantai mezzanine pada rumah, gudang, cafe, atau workshop.",
+              image: proyek5,
+            },
+            {
+              title: "Tangga Spiral Custom",
+              desc: "Hemat ruang dengan desain unik dan estetik, cocok untuk area dengan space terbatas.",
+              image: proyek17,
+            },
+          ].map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 + index * 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white text-gray-900 rounded-2xl shadow-md overflow-hidden"
+            >
+              <img src={item.image} alt={item.title} className="w-full h-60 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                <p className="text-gray-700">{item.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      
+
           </div>
         </section>
+
 
       {/* Galeri */}
         <motion.section className="py-16 px-4 md:px-8 max-w-6xl mx-auto" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
           <h2 className="text-3xl md:text-4xl font-bold text-center">
-            Galeri Proyek Kitchen Set Aluminium
+            Contoh Proyek Pembuatan Tangga Besi Custom
           </h2>
           <p className="text-lg text-center text-gray-600 max-w-2xl mx-auto mt-4 mb-12">
-            Lihat beberapa hasil proyek kitchen set aluminium dari <strong>Zen Workshop</strong>. Semua desain kami bisa dikustom sesuai ukuran dan konsep dapur Anda.
+            Lihat berbagai hasil proyek tangga besi custom yang telah kami kerjakan untuk rumah tinggal, mezzanine, ruko, gudang, cafe, dan bangunan komersial lainnya. Setiap tangga dibuat dengan konstruksi yang kokoh, desain yang estetik, dan dapat disesuaikan dengan kebutuhan serta konsep bangunan Anda.
           </p>
           <div className="columns-2 md:columns-3 gap-4 space-y-4 mb-16">
             {galleryImages.map((src, index) => (
@@ -254,7 +262,8 @@ export default function PintuSlidingPage() {
           )}
         </motion.section>
 
-        {/* SECTION: Layanan Interior Aluminium Lainnya */}
+        {/* SECTION: Layanan Besi & Konstruksi Lainnya */}
+
         <section className="bg-gradient-to-br from-[#0D2C40] to-[#1A4365] py-24 px-4 md:px-8 text-white">
           <div className="max-w-6xl mx-auto text-center">
             <motion.div
@@ -264,53 +273,55 @@ export default function PintuSlidingPage() {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Tidak Hanya Kitchen Set, Kami Juga Kerjakan Furnitur Aluminium Lainnya
+                Tidak Hanya Tangga Besi, Kami Juga Mengerjakan Konstruksi Besi Lainnya
               </h2>
               <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto mb-12">
-                Zen Workshop juga melayani pembuatan berbagai jenis furnitur custom berbahan aluminium untuk seluruh bagian rumah. Desain minimalis, tahan lama, dan pastinya anti rayap.
+                Nemu Workshop melayani berbagai kebutuhan fabrikasi dan konstruksi besi untuk rumah, ruko, gudang, cafe, kantor, hingga bangunan komersial. Semua dikerjakan dengan material berkualitas dan tenaga berpengalaman.
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-left">
-              {[
-                {
-                  title: "Lemari Pakaian Aluminium",
-                  desc: "Lemari tahan rayap dan lembab dengan desain modern, cocok untuk kamar tidur.",
-                },
-                {
-                  title: "Kabinet Bawah Tangga",
-                  desc: "Manfaatkan ruang kosong dengan kabinet aluminium yang fungsional dan rapi.",
-                },
-                {
-                  title: "Rak Penyimpanan Serbaguna",
-                  desc: "Untuk dapur, ruang laundry, atau ruang keluarga – kuat, ringan, dan estetik.",
-                },
-                {
-                  title: "Kabinet TV Aluminium",
-                  desc: "Solusi penyimpanan ruang tamu yang tahan lama dan tampil elegan.",
-                },
-                {
-                  title: "Lemari Dapur Tambahan",
-                  desc: "Cocok untuk menyimpan peralatan dapur atau stok bahan makanan, bisa disesuaikan ukuran dan warnanya.",
-                },
-                {
-                  title: "Kabinet Cuci Piring Aluminium",
-                  desc: "Praktis dan tahan air, cocok untuk dapur basah atau area outdoor rumah.",
-                },
-              ].map((item, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4 + index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white/10 backdrop-blur-sm text-white rounded-xl shadow-sm p-6 border border-white/20"
-                >
-                  <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                  <p className="text-white/90">{item.desc}</p>
-                </motion.div>
-              ))}
-            </div>
+      
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-left">
+          {[
+            {
+              title: "Mezzanine Besi",
+              desc: "Menambah area fungsional tanpa perlu renovasi besar, cocok untuk gudang, toko, dan rumah.",
+            },
+            {
+              title: "Pagar Besi Custom",
+              desc: "Pagar minimalis, industrial, maupun klasik yang bisa disesuaikan dengan desain bangunan.",
+            },
+            {
+              title: "Railing Tangga & Balkon",
+              desc: "Meningkatkan keamanan sekaligus mempercantik tampilan rumah dan bangunan.",
+            },
+            {
+              title: "Kanopi Besi",
+              desc: "Solusi perlindungan area carport, teras, maupun halaman dengan konstruksi yang kokoh.",
+            },
+            {
+              title: "Pintu Besi Custom",
+              desc: "Pintu besi kuat dan aman untuk rumah, gudang, ruko, maupun area komersial.",
+            },
+            {
+              title: "Struktur Baja Ringan",
+              desc: "Konstruksi ringan namun kuat untuk kebutuhan atap dan bangunan tambahan.",
+            },
+          ].map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 + index * 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white/10 backdrop-blur-sm text-white rounded-xl shadow-sm p-6 border border-white/20"
+            >
+              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+              <p className="text-white/90">{item.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+
           </div>
         </section>
 
@@ -319,28 +330,32 @@ export default function PintuSlidingPage() {
 
 
         {/* Tahapan Pemesanan */}
-          <section className="bg-white text-gray-900 py-20 px-4 md:px-8">
-            <div className="max-w-6xl mx-auto text-center">
-              <h2 className="text-4xl font-bold mb-8">
-                Proses Pemesanan Kitchen Set Aluminium
-              </h2>
+
+              <section className="bg-white text-gray-900 py-20 px-4 md:px-8">
+                <div className="max-w-6xl mx-auto text-center">
+                  <h2 className="text-4xl font-bold mb-8">
+                    Proses Pemesanan Tangga Besi Custom
+                  </h2>
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-left">
                 
                 {/* Gambar dan Paragraf */}
                 <div>
                   <img
                     src={pesananimg}
-                    alt="Konsultasi pemesanan kitchen set aluminium"
+                    alt="Konsultasi pembuatan tangga besi custom"
                     className="rounded-lg shadow-lg mb-6 mx-auto md:mx-0 md:max-w-[400px] w-full h-auto"
                   />
+
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Kami memberikan <span className="font-semibold text-gray-900">layanan konsultasi, survey, hingga pemasangan kitchen set aluminium</span> dengan proses yang profesional dan transparan. Cocok untuk dapur rumah tinggal, apartemen, maupun bisnis komersial.
+                    Kami menyediakan <span className="font-semibold text-gray-900">layanan konsultasi, survey, desain, fabrikasi, hingga pemasangan tangga besi custom</span> dengan proses yang profesional dan transparan. Cocok untuk rumah tinggal, ruko, kantor, gudang, maupun bangunan komersial lainnya.
                   </p>
+
                   <a
-                    href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+                    href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20tangga%20besi.%20Boleh%20saya%20konsultasi%3F"
                     onClick={() => {
                       fbq('track', 'Contact');
-                      return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
+                      return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20tangga%20besi.%20Boleh%20saya%20konsultasi%3F');
                     }}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -348,7 +363,6 @@ export default function PintuSlidingPage() {
                   >
                     <FaWhatsapp size={20} className="mb-[1px]" /> Konsultasi Sekarang
                   </a>
-
                 </div>
 
                 {/* Langkah-langkah */}
@@ -357,27 +371,27 @@ export default function PintuSlidingPage() {
                     {
                       id: "01",
                       title: "Hubungi Kami",
-                      desc: "Diskusikan kebutuhan kitchen set aluminium Anda melalui WhatsApp atau telepon.",
+                      desc: "Diskusikan kebutuhan tangga besi Anda melalui WhatsApp atau telepon.",
                     },
                     {
                       id: "02",
-                      title: "Survey Lokasi",
-                      desc: "Tim kami akan datang langsung ke lokasi untuk melakukan pengukuran dan evaluasi.",
+                      title: "Survey & Pengukuran",
+                      desc: "Tim kami akan melakukan pengukuran langsung untuk memastikan desain dan ukuran sesuai lokasi.",
                     },
                     {
                       id: "03",
-                      title: "Kalkulasi Biaya",
-                      desc: "Kami akan mengirimkan rincian harga lengkap berdasarkan kebutuhan dan spesifikasi Anda.",
+                      title: "Penawaran Harga",
+                      desc: "Kami mengirimkan estimasi biaya lengkap berdasarkan model, material, dan spesifikasi yang dipilih.",
                     },
                     {
                       id: "04",
-                      title: "MoU atau DP",
-                      desc: "Kesepakatan kerja akan dibuat agar proyek berjalan jelas dan terjadwal.",
+                      title: "Persetujuan & DP",
+                      desc: "Setelah desain dan harga disetujui, proyek masuk ke tahap produksi.",
                     },
                     {
                       id: "05",
                       title: "Produksi & Pemasangan",
-                      desc: "Kitchen set aluminium diproduksi dan dipasang oleh tim berpengalaman dari Zen Workshop.",
+                      desc: "Tangga besi diproduksi oleh tim berpengalaman dan dipasang dengan rapi sesuai standar keamanan.",
                     },
                   ].map((step) => (
                     <motion.div
@@ -387,7 +401,9 @@ export default function PintuSlidingPage() {
                       className="bg-gray-100 text-gray-900 border border-gray-200 rounded-xl p-5 shadow-sm"
                     >
                       <h3 className="text-xl font-semibold flex items-center gap-3">
-                        <span className="bg-[#0D2C40] text-white font-bold px-3 py-1 rounded-full">{step.id}</span>
+                        <span className="bg-[#0D2C40] text-white font-bold px-3 py-1 rounded-full">
+                          {step.id}
+                        </span>
                         {step.title}
                       </h3>
                       <p className="mt-2 text-gray-700">{step.desc}</p>
@@ -396,109 +412,128 @@ export default function PintuSlidingPage() {
                 </div>
 
               </div>
-            </div>
-          </section>
 
-
-      {/* Testimoni Klien - Kitchen Set Aluminium */}
-        <section className="bg-white py-20 px-4 md:px-8 text-gray-900">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
-              Testimoni Klien Kitchen Set Aluminium
-            </h2>
-
-            <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth pb-4">
-              {[
-                {
-                  name: "Ayu Pratiwi",
-                  job: "Ibu Rumah Tangga, Bekasi",
-                  message:
-                    "Kitchen set aluminium Zen gampang dibersihin, anti rayap, dan awet banget. Masak jadi makin semangat!",
-                },
-                {
-                  name: "Rama Ginting",
-                  job: "Arsitek Interior, BSD City",
-                  message:
-                    "Desainnya clean dan fungsional. Klien saya puas banget dengan hasilnya. Kualitas materialnya oke!",
-                },
-                {
-                  name: "Putri Handayani",
-                  job: "Pemilik Kost Eksklusif, Jakarta Selatan",
-                  message:
-                    "Kitchen set Zen Workshop bikin pantry kost saya tampil mewah tapi tetap tahan lama dan aman dipakai bersama.",
-                },
-                {
-                  name: "Budi Santosa",
-                  job: "Developer Rumah Cluster, Depok",
-                  message:
-                    "Zen Workshop selalu tepat waktu dan rapi. Semua unit cluster saya pakai kitchen set aluminium dari sini.",
-                },
-                {
-                  name: "Nina Kartika",
-                  job: "Karyawan Swasta, Tangerang",
-                  message:
-                    "Dulu dapur saya sempit dan gelap, sekarang jadi modern dan terang banget berkat kitchen set aluminium Zen.",
-                },
-                {
-                  name: "David Mahesa",
-                  job: "Content Creator Kuliner, Bogor",
-                  message:
-                    "Dapur saya sekarang cocok banget buat shooting. Estetik, kuat, dan pencahayaan alami makin maksimal.",
-                },
-              ].map((testi, index) => (
-                <div
-                  key={index}
-                  className="snap-center shrink-0 w-[300px] bg-white text-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition"
-                >
-                  <p className="text-yellow-500 mb-2">★★★★★</p>
-                  <p className="italic mb-4">“{testi.message}”</p>
-                  <div className="font-semibold text-[#0D2C40]">{testi.name}</div>
-                  <div className="text-sm text-gray-500">{testi.job}</div>
                 </div>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <a
-                href="https://maps.app.goo.gl/e7NRR7tuBcXQuXn4A"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#0D2C40] hover:bg-[#133C56] text-white px-6 py-3 rounded-lg text-base font-semibold transition"
-              >
-                Lihat Lokasi Zen Workshop di Google Maps
-              </a>
-            </div>
-          </div>
-        </section>
+              </section>
 
 
 
-        {/* FAQ - Kitchen Set Aluminium */}
-          <section className="bg-[#0D2C40] py-20 px-4 md:px-8 text-white">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl md:text-5xl font-bold mb-10">FAQ Kitchen Set Aluminium</h2>
+      {/* Testimoni Klien - Tangga Besi Custom */}
 
+              <section className="bg-white py-20 px-4 md:px-8 text-gray-900">
+                <div className="max-w-6xl mx-auto">
+                  <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+                    Testimoni Klien Pembuatan Tangga Besi
+                  </h2>
+
+              <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth pb-4">
+                {[
+                  {
+                    name: "Fajar Nugroho",
+                    job: "Pemilik Rumah 2 Lantai, Tangerang",
+                    message:
+                      "Tangga besi yang dibuat Nemu Workshop kokoh banget dan desainnya sesuai konsep rumah minimalis kami.",
+                  },
+                  {
+                    name: "Lina Oktavia",
+                    job: "Owner Cafe, Jakarta Barat",
+                    message:
+                      "Kami pesan tangga industrial untuk area mezzanine cafe. Hasilnya rapi, kuat, dan jadi nilai tambah interior.",
+                  },
+                  {
+                    name: "Dimas Prakoso",
+                    job: "Pemilik Gudang, Cikupa",
+                    message:
+                      "Tangga akses gudang dibuat sangat kokoh dan aman. Proses pengerjaan juga cepat dan profesional.",
+                  },
+                  {
+                    name: "Rendy Saputra",
+                    job: "Kontraktor Bangunan, Bekasi",
+                    message:
+                      "Sudah beberapa kali kerja sama dengan Nemu Workshop. Hasil fabrikasi tangga besinya selalu presisi dan tepat waktu.",
+                  },
+                  {
+                    name: "Sarah Maharani",
+                    job: "Pemilik Rumah Modern, BSD",
+                    message:
+                      "Tangga floating dengan kombinasi besi dan kayu yang dibuat terlihat mewah dan sesuai desain impian kami.",
+                  },
+                  {
+                    name: "Agus Setiawan",
+                    job: "Pemilik Ruko 3 Lantai, Depok",
+                    message:
+                      "Kualitas materialnya bagus, finishing rapi, dan pemasangannya sangat memperhatikan keamanan.",
+                  },
+                ].map((testi, index) => (
+                  <div
+                    key={index}
+                    className="snap-center shrink-0 w-[300px] bg-white text-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition"
+                  >
+                    <p className="text-yellow-500 mb-2">★★★★★</p>
+                    <p className="italic mb-4">“{testi.message}”</p>
+                    <div className="font-semibold text-[#0D2C40]">{testi.name}</div>
+                    <div className="text-sm text-gray-500">{testi.job}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-12 text-center">
+                <a
+                  href="https://maps.app.goo.gl/e7NRR7tuBcXQuXn4A"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#0D2C40] hover:bg-[#133C56] text-white px-6 py-3 rounded-lg text-base font-semibold transition"
+                >
+                  Lihat Lokasi Nemu Workshop di Google Maps
+                </a>
+              </div>
+            
+                </div>
+              </section>
+
+
+
+
+        {/* FAQ - Tangga Besi Custom */}
+
+              <section className="bg-[#0D2C40] py-20 px-4 md:px-8 text-white">
+                <div className="max-w-4xl mx-auto text-center">
+                  <h2 className="text-4xl md:text-5xl font-bold mb-10">
+                    FAQ Tangga Besi Custom
+                  </h2>
+
+              ```
               <div className="space-y-6 text-left">
                 {[
                   {
-                    question: "Apa kelebihan kitchen set aluminium dibanding kayu?",
+                    question: "Apakah tangga besi aman untuk penggunaan sehari-hari?",
                     answer:
-                      "Kitchen set aluminium lebih tahan lama, anti rayap, tidak mudah lembab, dan mudah dibersihkan. Sangat cocok untuk dapur modern dengan tingkat kelembaban tinggi.",
+                      "Ya. Tangga besi dirancang dengan struktur yang kuat dan kokoh sehingga aman digunakan untuk rumah tinggal, kantor, ruko, maupun bangunan komersial lainnya.",
                   },
                   {
-                    question: "Apakah kitchen set aluminium tahan panas dan air?",
+                    question: "Bisa custom model tangga sesuai desain rumah?",
                     answer:
-                      "Ya. Bahan aluminium tidak menyerap air dan tahan terhadap panas, sehingga sangat ideal digunakan di area dapur yang sering terpapar uap, minyak, dan suhu tinggi.",
+                      "Tentu. Kami melayani pembuatan tangga besi custom sesuai kebutuhan, mulai dari tangga lurus, tangga L, tangga U, tangga putar, hingga tangga floating modern.",
                   },
                   {
-                    question: "Bisa nggak pesan kitchen set aluminium custom sesuai ukuran dapur?",
+                    question: "Apakah tangga besi bisa dikombinasikan dengan material lain?",
                     answer:
-                      "Tentu bisa. Kami melayani pembuatan kitchen set aluminium custom sesuai layout dapur Anda, termasuk desain laci, kabinet atas-bawah, dan pilihan warna/motif.",
+                      "Bisa. Tangga besi dapat dikombinasikan dengan kayu, kaca, stainless steel, maupun railing custom untuk menghasilkan tampilan yang lebih modern dan elegan.",
                   },
                   {
-                    question: "Berapa lama proses pembuatan kitchen set aluminium?",
+                    question: "Apakah tangga besi mudah berkarat?",
                     answer:
-                      "Proses produksi rata-rata memakan waktu 7–14 hari kerja, tergantung ukuran, desain, dan tingkat kerumitan pengerjaan.",
+                      "Tidak. Kami menggunakan material berkualitas dengan finishing cat atau coating khusus untuk membantu melindungi tangga dari korosi dan memperpanjang usia pakainya.",
+                  },
+                  {
+                    question: "Berapa lama proses pembuatan dan pemasangan tangga besi?",
+                    answer:
+                      "Waktu pengerjaan umumnya berkisar 7–14 hari kerja, tergantung ukuran, desain, dan tingkat kompleksitas proyek.",
+                  },
+                  {
+                    question: "Apakah melayani survey lokasi terlebih dahulu?",
+                    answer:
+                      "Ya. Tim kami dapat melakukan survey dan pengukuran langsung agar desain tangga sesuai dengan kondisi bangunan dan kebutuhan Anda.",
                   },
                 ].map((item, index) => (
                   <motion.div
@@ -510,31 +545,42 @@ export default function PintuSlidingPage() {
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="bg-white/10 border border-white/20 rounded-xl p-5 shadow-sm backdrop-blur-sm transition"
                   >
-                    <h3 className="text-lg font-semibold mb-2 text-white">{item.question}</h3>
-                    <p className="text-white/90 leading-relaxed">{item.answer}</p>
+                    <h3 className="text-lg font-semibold mb-2 text-white">
+                      {item.question}
+                    </h3>
+                    <p className="text-white/90 leading-relaxed">
+                      {item.answer}
+                    </p>
                   </motion.div>
                 ))}
               </div>
-            </div>
-          </section>
+              
+
+                </div>
+              </section>
 
 
 
 
-     {/* CTA Akhir – Kitchen Set Aluminium */}
-        <section className="bg-white text-gray-900 py-20 px-4 md:px-8 text-center">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Siap Ubah Dapur Jadi Lebih Modern & Awet?
-            </h2>
+
+     {/* CTA Akhir – Tangga Besi Custom */}
+
+            <section className="bg-white text-gray-900 py-20 px-4 md:px-8 text-center">
+              <div className="max-w-3xl mx-auto">
+                <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                  Siap Mewujudkan Tangga Besi Impian Anda?
+                </h2>
+
+          
             <p className="text-lg md:text-xl mb-8 text-gray-700">
-              Wujudkan dapur impian Anda dengan <strong>kitchen set aluminium custom dari Zen Workshop</strong>. Tahan lama, anti rayap, dan mudah dibersihkan—cocok untuk hunian modern di area Jabodetabek.
+              Percayakan pembuatan <strong>tangga besi custom</strong> kepada <strong>Nemu Workshop</strong>. Mulai dari tangga minimalis, industrial, mezzanine, hingga tangga putar, semuanya bisa dibuat sesuai kebutuhan dan desain bangunan Anda. Melayani area Jabodetabek dan sekitarnya.
             </p>
+
             <a
-              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+              href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20tangga%20besi.%20Boleh%20saya%20konsultasi%3F"
               onClick={() => {
                 fbq('track', 'Contact');
-                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F');
+                return gtag_report_conversion('https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20jasa%20pembuatan%20tangga%20besi.%20Boleh%20saya%20konsultasi%3F');
               }}
               target="_blank"
               rel="noopener noreferrer"
@@ -542,9 +588,11 @@ export default function PintuSlidingPage() {
             >
               <FaWhatsapp size={24} /> Konsultasi Gratis via WhatsApp
             </a>
+            
 
-          </div>
-        </section>
+              </div>
+            </section>
+
 
 
 

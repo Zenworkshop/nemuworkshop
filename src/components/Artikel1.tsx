@@ -85,10 +85,10 @@ export default function Artikel1() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Inspirasi Pintu Jendela Aluminium, Partisi Kaca & Kitchen Set – Zen Workshop
+              Inspirasi Aluminium, Kaca, Pagar, Kanopi & Konstruksi Besi – NEMU Workshop
             </h2>
             <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-              Temukan inspirasi dan tips praktis seputar desain interior modern, pintu jendela aluminium, partisi kaca, hingga kitchen set aluminium di halaman artikel Zen Workshop. Kami hadirkan berbagai informasi terbaru untuk membantu Anda mewujudkan rumah impian yang elegan, fungsional, dan tahan lama.
+              Temukan inspirasi, tips, dan informasi seputar pintu aluminium, jendela aluminium, partisi kaca, shower box, kitchen set aluminium, pagar besi minimalis, pagar sliding, kanopi baja ringan, kanopi Alderon, railing balkon, railing tangga, mezanine, tangga besi, hingga berbagai pekerjaan stainless steel. Melalui artikel dari NEMU Workshop, kami menghadirkan berbagai panduan, ide desain, serta solusi konstruksi modern untuk membantu Anda mewujudkan hunian dan bangunan yang fungsional, aman, estetik, dan tahan lama.
             </p>
           </motion.div>
         </div>

@@ -23,9 +23,8 @@ import proyek14 from "../assets/railingtangga6.jpeg";
 import proyek15 from "../assets/railingtangga5.jpeg";
 import proyek16 from "../assets/railingtangga7.jpeg";
 import proyek17 from "../assets/railingtangga8.jpeg";
-import proyek18 from "../assets/railingbalkon.webp";
+import proyek18 from "../assets/railingbalkonkaca.webp";
 import proyek19 from "../assets/railingbalkon3.jpg";
-import proyek20 from "../assets/railingbalkonkaca.webp";
 import proyek21 from "../assets/railingbalkonkaca2.png";
 import pesananimg from "../assets/sectionn.png";
 import solutiomimg from "../assets/railingtangga.jpeg";
@@ -50,7 +49,7 @@ export const metadata = {
 };
 
 const galleryImages = [proyek1, proyek2, proyek3, proyek4, proyek5, proyek6, proyek7, proyek8, proyek9, proyek10,
-  proyek11, proyek12, proyek13, proyek14, proyek15, proyek16, proyek17, proyek18, proyek19, proyek20,
+  proyek11, proyek12, proyek13, proyek14, proyek15, proyek16, proyek17, proyek18, proyek19,
   proyek21]; 
 
 export default function PintuSlidingPage() {

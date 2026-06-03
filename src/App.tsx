@@ -52,14 +52,14 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/jenis-jendela" element={<JenisJendela />} />
-          <Route path="/partisi-kaca" element={<Partisikaca />} />
-          <Route path="/sliding-door" element={<Slidingdoor />} />
-          <Route path="/pintulipat-aluminium" element={<PintuLipatAluminium />} />
-          <Route path="/pintu-floorhinge" element={<PintuFloorhinge />} />
-          <Route path="/kanopi-kaca" element={<KanopiKaca />} />
-          <Route path="/kitchenset-aluminium" element={<KitchensetAluminium />} />
-          <Route path="/kandang-Kucing" element={<KandangKucing />} />
+          <Route path="/pagar-besi" element={<JenisJendela />} />
+          <Route path="/railing" element={<Partisikaca />} />
+          <Route path="/kanopi" element={<Slidingdoor />} />
+          <Route path="/baja-ringan" element={<PintuLipatAluminium />} />
+          <Route path="/mezzanine" element={<PintuFloorhinge />} />
+          <Route path="/stainles" element={<KanopiKaca />} />
+          <Route path="/tangga" element={<KitchensetAluminium />} />
+          <Route path="/alperon" element={<KandangKucing />} />
           <Route path="/artikel" element={<Artikel />} />
           <Route path="/berita" element={<Berita />} />
           <Route path="/artikel/partisi-aluminium-modern" element={<Artikel2 />} />

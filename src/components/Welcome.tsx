@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import jendelaIcon from '../assets/jendela.png';
 import kacaIcon from '../assets/kaca.png';
+import Mezanine from '../assets/mezanine.png';
 import pintuIcon from '../assets/pintu.png';
 import pengalamanImg from "../assets/pagarduma2.jpeg";
 
@@ -75,7 +76,7 @@ export default function Welcome() {
                 title: "Railing & Tangga",
                 desc: "Pembuatan railing balkon, railing tangga, tangga layang, tangga putar, stainless railing, dan konstruksi tangga modern."
               }, {
-                icon: kacaIcon,
+                icon: Mezanine,
                 title: "Produk Lainnya",
                 desc: "Mejanin, alperon, tempa klasik, stainless custom, baja ringan, dan berbagai kebutuhan workshop & konstruksi lainnya."
               }].map((item, idx) => (

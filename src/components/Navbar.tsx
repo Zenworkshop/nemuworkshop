@@ -43,7 +43,7 @@ export default function Navbar() {
           </a>
           <a href="mailto:nemuworkshopid@gmail.com" className="flex items-center space-x-2 hover:text-gray-300 transition">
             <MdOutlineMail />
-            <span>nemuworkshopid@gmail.com</span>
+            <span>nemuworkshop@gmail.com</span>
           </a>
         </div>
         <div className="flex space-x-4">
@@ -95,14 +95,14 @@ export default function Navbar() {
               </div>
               <div className="absolute hidden group-hover:block top-full left-0 bg-[#f9f9f9] shadow-lg rounded-lg py-2 w-48 z-50">
                 <div className="absolute h-2 w-full top-[-8px]"></div>
-                <Link to="/jenis-jendela" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Pagar</Link>
-                <Link to="/sliding-door" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Kanopi</Link>
-                <Link to="/partisi-kaca" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Railing</Link>
-                <Link to="/pintulipat-aluminium" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Baja Ringan</Link>
-                <Link to="/pintu-floorhinge" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Mezzanine</Link>
-                <Link to="/kanopi-kaca" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Stainless Steel</Link>
-                <Link to="/kitchenset-aluminium" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Tangga</Link>
-                <Link to="/kandang-kucing" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Alperon</Link>
+                <Link to="/pagar-besi" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Pagar</Link>
+                <Link to="/kanopi" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Kanopi</Link>
+                <Link to="/railing" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Railing</Link>
+                <Link to="/baja-ringan" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Baja Ringan</Link>
+                <Link to="/mezzanine" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Mezzanine</Link>
+                <Link to="/stainles" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Stainless Steel</Link>
+                <Link to="/tangga" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Tangga</Link>
+                <Link to="/alperon" className="block px-4 py-2 text-gray-900 hover:bg-gray-200">Alperon</Link>
               </div>
             </div>
 
@@ -146,14 +146,14 @@ export default function Navbar() {
             <div>
               <p className="text-base font-medium mb-2">Layanan</p>
               <div className="ml-4 mt-2 flex flex-col space-y-2">
-                <Link to="/jenis-jendela" className="text-sm" onClick={() => setIsOpen(false)}>Pagar</Link>
-                <Link to="/sliding-door" className="text-sm" onClick={() => setIsOpen(false)}>Kanopi</Link>
-                <Link to="/partisi-kaca" className="text-sm" onClick={() => setIsOpen(false)}>Railing</Link>
-                <Link to="/pintulipat-aluminium" className="text-sm" onClick={() => setIsOpen(false)}>Baja Ringan</Link>
-                <Link to="/pintu-floorhinge" className="text-sm" onClick={() => setIsOpen(false)}>Mezzanine</Link>
-                <Link to="/kanopi-kaca" className="text-sm" onClick={() => setIsOpen(false)}>Stainless Steel</Link>
-                <Link to="/kitchenset-aluminium" className="text-sm" onClick={() => setIsOpen(false)}>Tangga</Link>
-                <Link to="/kandang-kucing" className="text-sm" onClick={() => setIsOpen(false)}>Alperon</Link>
+                <Link to="/pagar-besi" className="text-sm" onClick={() => setIsOpen(false)}>Pagar</Link>
+                <Link to="/kanopi" className="text-sm" onClick={() => setIsOpen(false)}>Kanopi</Link>
+                <Link to="/railing" className="text-sm" onClick={() => setIsOpen(false)}>Railing</Link>
+                <Link to="/baja-ringan" className="text-sm" onClick={() => setIsOpen(false)}>Baja Ringan</Link>
+                <Link to="/mezzanine" className="text-sm" onClick={() => setIsOpen(false)}>Mezzanine</Link>
+                <Link to="/stainles" className="text-sm" onClick={() => setIsOpen(false)}>Stainless Steel</Link>
+                <Link to="/tangga" className="text-sm" onClick={() => setIsOpen(false)}>Tangga</Link>
+                <Link to="/alperon" className="text-sm" onClick={() => setIsOpen(false)}>Alperon</Link>
               </div>
             </div>
 

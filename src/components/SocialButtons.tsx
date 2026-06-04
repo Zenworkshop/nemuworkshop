@@ -9,7 +9,7 @@ export default function SocialButtons() {
       zIndex: 9999,
     }}>
       <a
-        href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+        href="https://wa.me/6285122662010?text=Halo%2C%20saya%20tertarik%20produk%20besi%20setelah%20melihat%20website%20Nemu%20Workshop.%20Boleh%20saya%20konsultasi%3F"
         target="_blank"
         rel="noopener noreferrer"
         style={{

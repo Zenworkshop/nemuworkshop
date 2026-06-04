@@ -174,7 +174,7 @@ export default function Testimonials() {
 
         <div className="mt-6 flex justify-center">
           <motion.a
-            href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+            href="https://wa.me/6285122662010?text=Halo%20Nemu%20Workshop%2C%20setelah%20mengunjungi%20website%2C%20saya%20tertarik%20untuk%20membuat%20pagar%2C%20kanopi%2C%20pintu%2C%20atau%20kebutuhan%20custom%20lainnya.%20Boleh%20saya%20konsultasi%20dan%20dijadwalkan%20survey%20gratis%3F"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
@@ -182,7 +182,7 @@ export default function Testimonials() {
             className="w-fit px-6 py-3 bg-[#25D366] hover:bg-green-500 text-white rounded-lg shadow-md font-semibold flex items-center gap-2"
             onClick={(e) => {
               e.preventDefault();
-              const whatsappLink = "https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F";
+              const whatsappLink = "https://wa.me/6285122662010?text=Halo%20Nemu%20Workshop%2C%20setelah%20mengunjungi%20website%2C%20saya%20tertarik%20untuk%20membuat%20pagar%2C%20kanopi%2C%20pintu%2C%20atau%20kebutuhan%20custom%20lainnya.%20Boleh%20saya%20konsultasi%20dan%20dijadwalkan%20survey%20gratis%3F";
 
               fbq('track', 'Contact');
               gtag('event', 'conversion', {

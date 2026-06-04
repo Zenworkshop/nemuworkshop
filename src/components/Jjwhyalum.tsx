@@ -148,7 +148,7 @@ export default function Jjwhyalum() {
 
           <div className="mt-6 flex justify-center">
             <motion.a
-              href="https://wa.me/6281244997748?text=Halo%20NEMU%20Workshop,%20saya%20tertarik%20untuk%20konsultasi%20mengenai%20pagar%20dan%20konstruksi%20besi."
+              href="https://wa.me/6285122662010?text=Halo%20Nemu%20Workshop%2C%20setelah%20mengunjungi%20website%2C%20saya%20tertarik%20untuk%20membuat%20pagar%20besi.%20Boleh%20saya%20konsultasi%20dan%20dijadwalkan%20survey%20gratis%3F"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
@@ -279,7 +279,7 @@ export default function Jjwhyalum() {
           {/* Kanan - Button */}
           <div className="w-full md:w-5/12 flex justify-center md:justify-end">
             <motion.a
-              href="https://wa.me/6281244997748?text=Halo%20NEMU%20Workshop,%20saya%20ingin%20konsultasi%20mengenai%20pagar%20dan%20konstruksi%20besi."
+              href="https://wa.me/6285122662010?text=Halo%20Nemu%20Workshop%2C%20setelah%20mengunjungi%20website%2C%20saya%20tertarik%20untuk%20membuat%20pagar%20besi.%20Boleh%20saya%20konsultasi%20dan%20dijadwalkan%20survey%20gratis%3F"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

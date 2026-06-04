@@ -64,8 +64,7 @@ export default function Catalog() {
           whileTap={{ scale: 0.95 }}
           onClick={(e) => {
             e.preventDefault();
-            const whatsappLink = "https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F";
-
+            const whatsappLink = "https://wa.me/6285122662010?text=Halo%2C%20saya%20tertarik%20produk%20besi%20setelah%20melihat%20website%20Nemu%20Workshop.%20Boleh%20saya%20konsultasi%3F";
             fbq('track', 'Contact');
             gtag('event', 'conversion', {
               send_to: 'AW-17108704615/Njd_CLfTtswaEOe6iN4_',

@@ -26,22 +26,27 @@ function gtag_report_conversion(url) {
 export default function Navbar() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
-  const whatsappLink = "https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F";
+  const whatsappLink = "https://wa.me/6285122662010?text=Halo%2C%20saya%20tertarik%20produk%20besi%20setelah%20melihat%20website%20Nemu%20Workshop.%20Boleh%20saya%20konsultasi%3F";
 
   return (
     <nav className="fixed w-full z-50 bg-white shadow-md">
       {/* BAGIAN ATAS */}
       <div className="hidden md:flex justify-between items-center bg-[#0D2C40] text-white px-8 py-2 text-sm">
         <div className="flex items-center space-x-6">
-          <div className="flex items-center space-x-2">
+          <a
+            href="https://maps.app.goo.gl/HhxNQF2ByXrFH5CdA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 hover:text-gray-300 transition-colors"
+          >
             <MdAccessTime />
             <span>Setiap Hari : 08:00 - 17:00</span>
-          </div>
+          </a>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 hover:text-gray-300 transition">
             <FiPhone />
-            <span>0812-4499-7748</span>
+            <span>0851-2266-2010</span>
           </a>
-          <a href="mailto:nemuworkshopid@gmail.com" className="flex items-center space-x-2 hover:text-gray-300 transition">
+          <a href="mailto:nemuworkshop@gmail.com" className="flex items-center space-x-2 hover:text-gray-300 transition">
             <MdOutlineMail />
             <span>nemuworkshop@gmail.com</span>
           </a>

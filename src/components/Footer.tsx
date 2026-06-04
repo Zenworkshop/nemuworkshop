@@ -33,13 +33,13 @@ export default function Footer() {
             <ul className="space-y-2">
             <li>
               <a
-                href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+                href="https://wa.me/6285122662010?text=Halo%20Nemu%20Workshop%2C%20setelah%20mengunjungi%20website%2C%20saya%20tertarik%20untuk%20membuat%20pagar%2C%20kanopi%2C%20pintu%2C%20atau%20kebutuhan%20custom%20lainnya.%20Boleh%20saya%20konsultasi%20dan%20dijadwalkan%20survey%20gratis%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-400 hover:text-white transition"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                +62 812-4499-7748
+                +62 851-2266-2010
               </a>
             </li>
             <li>
@@ -96,7 +96,7 @@ export default function Footer() {
                 <FaYoutube className="w-6 h-6" />
               </a>
               <a
-                href="https://wa.me/6281244997748?text=Halo%2C%20saya%20tertarik%20produk%20aluminium%20setelah%20melihat%20website%20Zen%20Workshop.%20Boleh%20saya%20konsultasi%3F"
+                href="https://wa.me/6285122662010?text=Halo%20Nemu%20Workshop%2C%20setelah%20mengunjungi%20website%2C%20saya%20tertarik%20untuk%20membuat%20pagar%2C%20kanopi%2C%20pintu%2C%20atau%20kebutuhan%20custom%20lainnya.%20Boleh%20saya%20konsultasi%20dan%20dijadwalkan%20survey%20gratis%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition"
